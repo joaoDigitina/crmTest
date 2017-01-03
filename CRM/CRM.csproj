@@ -109,6 +109,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Service\AddressActions.cs" />
     <Compile Include="Service\CRMActions.cs" />
     <Compile Include="Service\CRMAuthenticatorService.cs" />
     <Compile Include="Service\CRMBusinessRules.cs" />
@@ -152,6 +153,13 @@
     <Content Include="WebComponents\Addresses\addresses.js">
       <DependentUpon>addresses.ts</DependentUpon>
     </Content>
+    <Content Include="WebComponents\Map\map.css">
+      <DependentUpon>map.scss</DependentUpon>
+    </Content>
+    <Content Include="WebComponents\Map\map.html" />
+    <Content Include="WebComponents\Map\map.js">
+      <DependentUpon>map.ts</DependentUpon>
+    </Content>
     <Content Include="WebComponents\Products\products.css">
       <DependentUpon>products.scss</DependentUpon>
     </Content>
@@ -178,10 +186,12 @@
     </Content>
     <Content Include="WebComponents\Products\products.scss" />
     <Content Include="WebComponents\Addresses\addresses.scss" />
+    <Content Include="WebComponents\Map\map.scss" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\typings\vidyano\vidyano.d.ts" />
     <TypeScriptCompile Include="WebComponents\Addresses\addresses.ts" />
+    <TypeScriptCompile Include="WebComponents\Map\map.ts" />
     <TypeScriptCompile Include="WebComponents\Products\products.ts" />
   </ItemGroup>
   <ItemGroup>

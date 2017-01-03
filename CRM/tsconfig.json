@@ -9,6 +9,8 @@
   "files": [
     "Scripts/typings/vidyano/vidyano.d.ts",
     "WebComponents/Products/products.ts",
-    "WebComponents/Addresses/addresses.ts"
+    "WebComponents/Addresses/addresses.ts",
+    "WebComponents/map/map.ts",
+    "WebComponents/Map/map.ts"
   ]
 }

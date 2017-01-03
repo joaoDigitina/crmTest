@@ -1,0 +1,15 @@
+﻿<dom-module id="crm-map">
+    <template>
+        <link rel="stylesheet" href="map.css" />
+		    <div on-tap="_addressLoad">
+                Show Map [[latitude]] [[longitude]]
+            </div>
+        <template is="dom-if" if="[[latitude]]">
+            <google-map latitude$=[[latitude]] longitude$=[[longitude]] api-key="AIzaSyAlbM-fbccC_USmfkZ0QDQoY1PjvTjXsfo">
+                <google-map-marker latitud$=[[latitude]] longitude=[[longitude]]
+                                   draggable="true" title="Go Giants!"></google-map-marker>
+            </google-map>
+        </template>
+     </template>
+</dom-module>
+<script src="map.js"></script>

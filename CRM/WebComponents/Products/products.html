@@ -5,7 +5,7 @@
         <!--vi scroller is a scroller--> 
         <vi-scroller class="flex">
             <!--A dom repeat template uses the items to iterate troughtdata . items is a keyword , so is as -->
-            <template is="dom-repeat" items="[[products.items]]" as="productItem">
+            <template id="refreshTest" is="dom-repeat" items="[[products.items]]" as="productItem">
                 <div class="product-item" on-tap="_productTap" is-selected$="[[_isSelectedProduct(product, productItem)]]">[[productItem.values.Name]]</div>
             </template>
         </vi-scroller>

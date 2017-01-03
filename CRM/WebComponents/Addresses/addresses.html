@@ -5,18 +5,18 @@
         <!--vi scroller is a scroller-->
         <vi-scroller class="flex">
             <!--A dom repeat template uses the items to iterate troughtdata . items is a keyword , so is as -->
-            <template is="dom-repeat" items="[[addresses.items]]" as="addressItem">
-                <div class="product-item" on-tap="_productTap" is-selected$="[[_isSelectedProduct(address, addressItem)]]">[[addressItem.values.City]]</div>
+            <template id="repeatRefresh" is="dom-repeat" items="[[addresses.items]]" as="addressItem">
+                <div class="address-item" on-tap="_addressTap" is-selected$="[[_isSelectedAddress(address, addressItem)]]">[[addressItem.values.City]]</div>
             </template>
         </vi-scroller>
-        <!--Another type of template related to polymer the dom if is similar to ng-if of angular . Will show the product detail if the product bind is true.-->
+        <!--Another type of template related to polymer the dom if is similar to ng-if of angular . Will show the addresses detail if the addresses bind is true.-->
         <template is="dom-if" if="[[address]]">
             <!--Another scroller in flex , each scroller will occupy half of the page-->
             <vi-scroller class="flex">
                 <div class="selected-address">
                     <!--On track is similar to on drag , we will execute the function track when we drag the header-->
-                    <h1 on-track="_track">[[product.breadcrumb]]</h1>
-                    <!--In this case we use dom repeat as well but go trought the attributes of the product we have bound in typescript-->
+                    <h1 on-track="_track">[[addresses.breadcrumb]]</h1>
+                    <!--In this case we use dom repeat as well but go trought the attributes of the addresses we have bound in typescript-->
                     <template is="dom-repeat" items="[[address.attributes]]" as="attribute">
                         <!--Attribute presenter is a custom vidyano web component for the purpose of, well displaying attributes.-->
                         <vi-persistent-object-attribute-presenter attribute="[[attribute]]"></vi-persistent-object-attribute-presenter>
@@ -25,8 +25,8 @@
             </vi-scroller>
             <!--Footer on the bottom with the buttons-->
             <footer class="layout horizontal">
-                <!--If the product hasnt been changed we should not be able to save, only works with foward observers. isDirty is not enough by itself-->
-                <button is="vi-button" label="Save" icon="Action_Save" on-tap="_saveProduct" disabled="[[!address.isDirty]]"></button>
+                <!--If the addresses hasnt been changed we should not be able to save, only works with foward observers. isDirty is not enough by itself-->
+                <button is="vi-button" label="Save" icon="Action_Save" on-tap="_saveaddress" disabled="[[!address.isDirty]]"></button>
                 <button is="vi-button" label="Increase margin" on-tap="_increaseMargin"></button>
             </footer>
         </template>

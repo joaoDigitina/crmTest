@@ -3315,6 +3315,16 @@
           "Query": {
             "$ref": "Query:c81776d5-8e10-4e05-b5f8-aff5b2eccd3e"
           }
+        },
+        {
+          "Offset": 30,
+          "Title": {
+            "en": "Customers"
+          },
+          "Name": "Customers",
+          "Query": {
+            "$ref": "Query:441a8776-5644-4aa6-888e-56da985f4284"
+          }
         }
       ]
     }
