@@ -9,6 +9,7 @@
     <link rel="import" href="web2/vidyano.html" />
     <link rel="import" href="web2/WebComponents/PersistentObjectAttributePresenter/persistent-object-attribute-presenter.html" />
     <link rel="import" href="web2/vulcanize/WebComponents/Products/products.html" />
+    <link rel="import" href="web2/vulcanize/WebComponents/Addresses/addresses.html" />
 </head>
 <body class="fullbleed">
     <vi-app label="My CRM" class="fit">
@@ -20,6 +21,14 @@
                 <crm-products class="flex layout vertical" products="[[query]]"></crm-products>
             </template>
         </vi-query-config>
+
+        <vi-query-config id="56b56d40-b06b-44b4-9048-55a3e709f61a">
+            <template is="dom-template">
+                <crm-addresses class="flex layout vertical" addresses="[[query]]"></crm-addresses>
+            </template>
+        </vi-query-config>
+
+        
     </vi-app>
 </body>
 </html>
