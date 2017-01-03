@@ -1,0 +1,29 @@
+﻿:host .product-item {
+  cursor: pointer;
+  /*Default sass variables for vidyano*/
+  line-height: var(--theme-h2); }
+  :host .product-item:hover {
+    background-color: var(--theme-color-faint); }
+  :host .product-item[is-selected] {
+    background-color: var(--theme-color);
+    color: white; }
+
+:host h1 {
+  /*We can also use typescript variables on sass . These variables will be altered on typescript and bound there( and on polymer) and will be altered from there to here. Notice 
+        the prefix --crm-products from there we can access any typescript variable . Direct acess to dynamic css.
+        */
+  margin: var(--crm-products-product-margin, 0);
+  color: var(--theme-color);
+  transform: var(--crm-products-product-transform); }
+
+:host .selected-product, :host footer {
+  padding: var(--theme-h4); }
+
+:host footer {
+  overflow: hidden; }
+  :host footer button {
+    line-height: var(--theme-h2);
+    height: var(--theme-h2); }
+    :host footer button:not(:first-of-type) {
+      margin-left: var(--theme-h5); }
+

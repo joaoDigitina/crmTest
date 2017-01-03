@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>My CRM</title>
+    <script src="web2/Libs/webcomponentsjs/webcomponents-lite.js"></script>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link rel="import" href="web2/vidyano.html" />
+    <link rel="import" href="web2/WebComponents/PersistentObjectAttributePresenter/persistent-object-attribute-presenter.html" />
+    <link rel="import" href="web2/vulcanize/WebComponents/Products/products.html" />
+</head>
+<body class="fullbleed">
+    <vi-app label="My CRM" class="fit">
+
+        <vi-query-config id="c81776d5-8e10-4e05-b5f8-aff5b2eccd3e" hide-header>
+             <!--Web components must be inside a poylmer template for the bindings to work-->
+            <template is="dom-template">
+                <!--crm products is a web component that will take a query value which is obtained from vi-query-->
+                <crm-products class="flex layout vertical" products="[[query]]"></crm-products>
+            </template>
+        </vi-query-config>
+    </vi-app>
+</body>
+</html>

@@ -1,0 +1,3326 @@
+{
+  "Actions": {
+    "ActivateLicense": {
+      "Offset": 50,
+      "ShowedOn": 1,
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "Activate"
+      },
+      "IconName": "Ok"
+    },
+    "AddReference": {
+      "RefreshQueryOnCompleted": true,
+      "Offset": 300,
+      "ShowedOn": 2,
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "Add"
+      },
+      "IconName": "Add"
+    },
+    "BulkEdit": {
+      "Offset": 400,
+      "ShowedOn": 2,
+      "IsSystem": true,
+      "SelectionRule": ">0",
+      "DisplayName": {
+        "en": "Edit"
+      },
+      "IconName": "Edit"
+    },
+    "CancelEdit": {
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "Cancel"
+      },
+      "IconName": "CancelEdit"
+    },
+    "CancelSave": {
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "Cancel"
+      },
+      "IconName": "Cancel"
+    },
+    "Delete": {
+      "RefreshQueryOnCompleted": true,
+      "Offset": 500,
+      "ShowedOn": 2,
+      "IsSystem": true,
+      "SelectionRule": ">0",
+      "DisplayName": {
+        "en": "Delete"
+      },
+      "IconName": "Delete",
+      "ConfirmationMessageKey": "AskForDeleteItems"
+    },
+    "DialogCancel": {
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "Cancel"
+      },
+      "IconName": "Cancel"
+    },
+    "DialogOk": {
+      "IsSystem": true,
+      "SelectionRule": "> 0",
+      "DisplayName": {
+        "en": "OK"
+      },
+      "IconName": "Ok"
+    },
+    "Edit": {
+      "Offset": 100,
+      "ShowedOn": 5,
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "Edit"
+      },
+      "IconName": "Edit"
+    },
+    "EndEdit": {
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "Save"
+      },
+      "IconName": "Save"
+    },
+    "ExportToExcel": {
+      "Offset": 30000,
+      "ShowedOn": 2,
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "Export"
+      },
+      "IconName": "Excel"
+    },
+    "Filter": {
+      "Offset": 50000,
+      "ShowedOn": 2,
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "Filter"
+      },
+      "IsPinned": true,
+      "IconName": "Filter"
+    },
+    "New": {
+      "Offset": 200,
+      "ShowedOn": 2,
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "New"
+      },
+      "IconName": "Add"
+    },
+    "RefreshQuery": {
+      "Offset": 40000,
+      "ShowedOn": 2,
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "Refresh"
+      },
+      "IsPinned": true,
+      "IconName": "Refresh"
+    },
+    "RefreshTranslations": {
+      "Offset": 1000,
+      "ShowedOn": 3,
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "Refresh from English"
+      },
+      "IconName": "Refresh"
+    },
+    "Remove": {
+      "RefreshQueryOnCompleted": true,
+      "Offset": 600,
+      "ShowedOn": 2,
+      "IsSystem": true,
+      "SelectionRule": ">0",
+      "DisplayName": {
+        "en": "Remove"
+      },
+      "IconName": "Remove"
+    },
+    "Save": {
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "Save"
+      },
+      "IconName": "Save"
+    },
+    "ShowHelp": {
+      "Offset": 60000,
+      "ShowedOn": 7,
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "Help"
+      },
+      "IsPinned": true,
+      "IconName": "Help"
+    },
+    "SynchronizeSchema": {
+      "RefreshQueryOnCompleted": true,
+      "Offset": 700,
+      "ShowedOn": 2,
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "Synchronize"
+      },
+      "IconName": "Edmx"
+    },
+    "viConfigurePO": {
+      "Offset": 1000000,
+      "ShowedOn": 1,
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "Configure"
+      },
+      "IsPinned": true,
+      "IconName": "Action"
+    },
+    "viAddToProgramUnit": {
+      "Offset": 1000,
+      "ShowedOn": 3,
+      "IsSystem": true,
+      "SelectionRule": "=1",
+      "DisplayName": {
+        "en": "Add to Program Unit"
+      },
+      "IconName": "Add"
+    },
+    "viConfigureQuery": {
+      "Offset": 1000000,
+      "ShowedOn": 2,
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "Configure"
+      },
+      "Options": {
+        "en": "Query;Query Persistent Object"
+      },
+      "IsPinned": true,
+      "IconName": "Action"
+    },
+    "viExport": {
+      "RefreshQueryOnCompleted": true,
+      "Offset": 1000,
+      "ShowedOn": 2,
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "Export"
+      },
+      "IconName": "DataExport"
+    },
+    "viExportTranslations": {
+      "Offset": 1000,
+      "ShowedOn": 2,
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "Export"
+      },
+      "IconName": "DataExport"
+    },
+    "viImpersonate": {
+      "Offset": 55000,
+      "ShowedOn": 3,
+      "IsSystem": true,
+      "SelectionRule": "=1",
+      "DisplayName": {
+        "en": "Impersonate"
+      },
+      "IsPinned": true,
+      "IconName": "Impersonate"
+    },
+    "viImport": {
+      "Offset": 1010,
+      "ShowedOn": 2,
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "Import"
+      },
+      "IconName": "DataImport"
+    },
+    "viImportTranslations": {
+      "Offset": 1100,
+      "ShowedOn": 2,
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "Import"
+      },
+      "IconName": "DataImport"
+    },
+    "viSearch": {
+      "Offset": 1500,
+      "ShowedOn": 2,
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "Search"
+      },
+      "IsPinned": true,
+      "IconName": "Filter"
+    },
+    "viStartStop": {
+      "RefreshQueryOnCompleted": true,
+      "Offset": 50,
+      "ShowedOn": 2,
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "Start / Stop"
+      },
+      "IconName": "Ok"
+    }
+  },
+  "Templates": [
+    {
+      "$id": "Template:07ee5ebd-7000-423a-b87d-8f6ead81fda7",
+      "Id": "07ee5ebd-7000-423a-b87d-8f6ead81fda7",
+      "Name": "PersistentObjectAttribute_Edit_Image",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_Image\">\n  <button type=\"button\"  class=\"persistentObjectAttributeButton clearButton persistentObjectAttributeValuePartRight\" tabIndex=\"-1\"></button>\n  <div class=\"persistentObjectAttributeValuePartRight\">\n    <div style=\"position: relative; width: 22px; height: 22px;\">\n      <button type=\"button\" class=\"persistentObjectAttributeButton editButton\" style=\"position: absolute;\" tabIndex=\"-1\"></button>\n      <div class=\"persistentObjectAttributefileInputWrapper\" style=\"position: absolute;\"><input class=\"persistentObjectAttributefileInput\" type=\"file\" accept=\"image/*\"></input></div>\n    </div>\n  </div>\n  <div class=\"persistentObjectAttributeValuePartFill\">\n    <div class=\"persistentObjectAttributeValueImageContainer\"><% if (value != null) { %><img src=\"<%= value.asDataUri() %>\" /><% } %></div>\n  </div>\n</div>"
+    },
+    {
+      "$id": "Template:0bb94fa1-2508-481f-9e20-c29500e99a69",
+      "Id": "0bb94fa1-2508-481f-9e20-c29500e99a69",
+      "Name": "PersistentObjectAttribute_Edit_Date",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_Date\"><input class=\"persistentObjectAttributeEditDateInput\" type=\"text\"></input></div>"
+    },
+    {
+      "$id": "Template:11aa1940-26ca-473f-864e-a97b0d4adbba",
+      "Id": "11aa1940-26ca-473f-864e-a97b0d4adbba",
+      "Name": "PersistentObjectAttribute_MultiLineString",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_MultiLineString\"><span><%= displayValue() %></span></div>"
+    },
+    {
+      "$id": "Template:1641ce2e-5a3d-4a37-9b96-6b78bebfebd1",
+      "Id": "1641ce2e-5a3d-4a37-9b96-6b78bebfebd1",
+      "Name": "PersistentObjectAttribute_Edit_Numeric",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_Numeric\"><input class=\"persistentObjectAttributeEditInput\" type=\"text\"></input></div>"
+    },
+    {
+      "$id": "Template:1902bc0f-c836-487b-bd39-8699750f30cf",
+      "Id": "1902bc0f-c836-487b-bd39-8699750f30cf",
+      "Name": "PersistentObjectAttribute_Edit_NullableDateTime",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_DateTime\">\n  <button type=\"button\" class=\"persistentObjectAttributeButton clearButton persistentObjectAttributeValuePartRight\" tabIndex=\"-1\"></button>\n  <div class=\"persistentObjectAttributeValuePartFill\" >\n    <div class=\"persistentObjectAttributeValueTwoPartShare\"><input class=\"persistentObjectAttributeEditDateInput\" type=\"text\"></input></div>\n    <div class=\"persistentObjectAttributeValueTwoPartShare\"><input class=\"persistentObjectAttributeEditTime\" type=\"text\"></input></div>\n  </div>\n</div>"
+    },
+    {
+      "$id": "Template:21bdfcc1-15db-4400-a803-0bf3f12ad8a6",
+      "Id": "21bdfcc1-15db-4400-a803-0bf3f12ad8a6",
+      "Name": "PersistentObjectAttribute_Edit_Reference",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_Reference\"><% if(selectInPlace) { %><button type=\"button\" class=\"persistentObjectAttributeButton persistentObjectAttributeValuePartRight clearButton\" tabIndex=\"-1\"></button>\n<button type=\"button\" class=\"persistentObjectAttributeButton persistentObjectAttributeValuePartRight addReferenceButton\" tabIndex=\"-1\"></button>\n<div class=\"persistentObjectAttributeValuePartFill\"><select class=\"persistentObjectAttributeEditEditableSelect\"><% selectInPlaceOptions().run(function(option) { %><option value='<%= option.key %>'><%= option.value %></option><% }); %></select></div>\n<% } else { %>  <button type=\"button\" class=\"persistentObjectAttributeButton persistentObjectAttributeValuePartRight clearButton\" tabIndex=\"-1\"></button>\n<button type=\"button\" class=\"persistentObjectAttributeButton persistentObjectAttributeValuePartRight addReferenceButton\" tabIndex=\"-1\"></button>\n<button type=\"button\" class=\"persistentObjectAttributeButton persistentObjectAttributeValuePartRight browseReferenceButton\" tabIndex=\"-1\"></button>\n<div class=\"persistentObjectAttributeValuePartFill\"><input type=\"text\" readonly=\"readonly\"></input></div>\n<% } %></div>"
+    },
+    {
+      "$id": "Template:2df22684-fb7e-4f03-bf8d-4510f7ab6429",
+      "Id": "2df22684-fb7e-4f03-bf8d-4510f7ab6429",
+      "Name": "PersistentObjectAttribute_Edit_TranslatedString",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_TranslatedString\">\n  <button type=\"button\" class=\"persistentObjectAttributeButton editButton persistentObjectAttributeValuePartRight\"></button>\n  <div class=\"persistentObjectAttributeValuePartFill\"><input type=\"text\"></input></div>\n  <div class=\"persistentObjectAttributeEditLanguages\"></div>\n</div>"
+    },
+    {
+      "$id": "Template:2e0f5579-35fd-4cb2-bb7c-992bbe3b6587",
+      "Id": "2e0f5579-35fd-4cb2-bb7c-992bbe3b6587",
+      "Name": "PersistentObjectAttribute_Edit_AsDetail",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_AsDetail\"></div>"
+    },
+    {
+      "$id": "Template:34b00ecc-344e-40cb-9bb0-df1272310191",
+      "Id": "34b00ecc-344e-40cb-9bb0-df1272310191",
+      "Name": "PersistentObjectAttribute_User",
+      "IsSystem": true,
+      "Data": "<span><%= options[0] %></span>"
+    },
+    {
+      "$id": "Template:385d55b6-75fd-4e63-92cf-2427fd82b8f9",
+      "Id": "385d55b6-75fd-4e63-92cf-2427fd82b8f9",
+      "Name": "PersistentObjectAttribute_BinaryFile",
+      "IsSystem": true,
+      "Data": "<span><%= binaryFileName() %></span>"
+    },
+    {
+      "$id": "Template:4865df2c-404b-4517-a1b2-c4e8dd43dc34",
+      "Id": "4865df2c-404b-4517-a1b2-c4e8dd43dc34",
+      "Name": "PersistentObjectAttribute_Edit_MultiString",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_MultiString\"><input type=\"text\"></input></div>"
+    },
+    {
+      "$id": "Template:5256f01e-1e54-4969-9dd2-d67944dfba9e",
+      "Id": "5256f01e-1e54-4969-9dd2-d67944dfba9e",
+      "Name": "PersistentObjectAttribute_Edit_Boolean",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_YesNo\">\n  <div class=\"persistentObjectAttributeRadioSet\" style=\"display:none\">    \n    <% var rnd = getRandom(); %>\n    <input type=\"radio\" id=\"attribute_<%=name+rnd%>_true\" name=\"attribute_<%=name%>_radio\" value=\"true\"></input><label for=\"attribute_<%=name+rnd%>_true\"><%=Vidyano.app.getTranslatedMessage(getTypeHint(\"TrueKey\", \"True\"))%></label>\n    <input type=\"radio\" id=\"attribute_<%=name+rnd%>_false\" name=\"attribute_<%=name%>_radio\" value=\"false\"></input><label for=\"attribute_<%=name+rnd%>_false\"><%=Vidyano.app.getTranslatedMessage(getTypeHint(\"FalseKey\", \"False\"))%></label>\n  </div>\n</div>"
+    },
+    {
+      "$id": "Template:5f45418c-3bad-4bf8-99e9-554cf5923ee4",
+      "Id": "5f45418c-3bad-4bf8-99e9-554cf5923ee4",
+      "Name": "PersistentObjectAttribute_Edit_NullableDateTimeOffset",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_DateTimeOffset\">\n  <button type=\"button\" class=\"persistentObjectAttributeButton clearButton persistentObjectAttributeValuePartRight\" tabIndex=\"-1\"></button>\n  <div class=\"persistentObjectAttributeValuePartFill\">\n    <div class=\"persistentObjectAttributeValueThreePartShare\"><input class=\"persistentObjectAttributeEditDateInput\" type=\"text\"></input></div>\n    <div class=\"persistentObjectAttributeValueThreePartShare\"><input class=\"persistentObjectAttributeEditTime\" type=\"text\"></input></div>\n    <div class=\"persistentObjectAttributeValueThreePartShare\"><select class=\"persistentObjectAttributeEditOffset\"></select></div>\n  </div>\n</div>"
+    },
+    {
+      "$id": "Template:6099c1a1-9f34-44da-ac4a-fc79dc2f4792",
+      "Id": "6099c1a1-9f34-44da-ac4a-fc79dc2f4792",
+      "Name": "PersistentObjectAttribute_Edit_ComboBox",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_ComboBox\"><select class=\"persistentObjectAttributeEditEditableSelect\"><% options.run(function(option) { %> <option><%= option %></option> <% }); %></select></div>"
+    },
+    {
+      "$id": "Template:61dbcbb0-2f01-402d-9b30-3422cf41ee39",
+      "Id": "61dbcbb0-2f01-402d-9b30-3422cf41ee39",
+      "Name": "PersistentObjectAttribute_Edit_Password",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_String\"><input type=\"password\" <% if(getTypeHint(\"MaxLength\",0) != 0) { print('maxlength=\"' + getTypeHint(\"MaxLength\",0) + '\"')} %> value=\"<%- value %>\"></input></div>"
+    },
+    {
+      "$id": "Template:63ae4bc2-371d-4db5-9fcd-469ff6f5ef36",
+      "Id": "63ae4bc2-371d-4db5-9fcd-469ff6f5ef36",
+      "Name": "PersistentObjectAttribute_AsDetail",
+      "IsSystem": true,
+      "Data": "<div class='persistentObjectAttribute_Edit_AsDetail'></div>"
+    },
+    {
+      "$id": "Template:645e6a65-4132-45bd-b9f7-891cbf7b7eeb",
+      "Id": "645e6a65-4132-45bd-b9f7-891cbf7b7eeb",
+      "Name": "PersistentObjectAttribute_Edit_BinaryFile",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_BinaryFile\">\n  <input class=\"persistentObjectAttributeValuePartRight persistentObjectAttributefileInput\" type=\"file\"></input>\n  <div class=\"persistentObjectAttributeValuePartFill\"><input value=\"<%= binaryFileName() %>\" type=\"text\" readonly=\"readonly\"></input></div>\n</div>"
+    },
+    {
+      "$id": "Template:64eb6cec-f773-4795-8b0d-bef2d1647ab9",
+      "Id": "64eb6cec-f773-4795-8b0d-bef2d1647ab9",
+      "Name": "PersistentObjectAttribute_Edit_NullableGuid",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_String\"><input type=\"text\" maxLength=\"36\"></input></div>"
+    },
+    {
+      "$id": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f",
+      "Id": "6674a5e0-639a-4f58-854b-ae1f1c729a0f",
+      "Name": "QueryColumn_DEFAULT",
+      "IsSystem": true
+    },
+    {
+      "$id": "Template:700c8a54-1c5c-4f73-9d40-c9ba45faf9f3",
+      "Id": "700c8a54-1c5c-4f73-9d40-c9ba45faf9f3",
+      "Name": "PersistentObjectAttribute_Edit_Guid",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_String\"><input type=\"text\" maxLength=\"36\"></input></div>"
+    },
+    {
+      "$id": "Template:75448ab5-7c4f-4526-bc38-f4cb7b0cdbef",
+      "Id": "75448ab5-7c4f-4526-bc38-f4cb7b0cdbef",
+      "Name": "PersistentObjectAttribute_Reference",
+      "IsSystem": true,
+      "Data": "<% if(lookup.canRead){ %>\n<a class=\"referenceNavigation <% if (!hasValue()) { print('noValue'); }%>\"<% if (hasValue()) { %> href=\"#!/<%= Vidyano.app.getUrlForPersistentObject(lookup.persistentObject, objectId) %>\" onclick=\"$(this).dataContext().navigateToReference();return false\"<% } %>><%= displayValue() %> &nbsp;</a>\n<%} else {%><span><%= displayValue() %></span><% } %>"
+    },
+    {
+      "$id": "Template:79d3d0b5-78d1-4150-8215-c9f9acc13385",
+      "Id": "79d3d0b5-78d1-4150-8215-c9f9acc13385",
+      "Name": "PersistentObjectAttribute_Edit_FlagsEnum",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_FlagsEnum\"><select class=\"persistentObjectAttributeEditSelect\" multiple=\"multiple\"><% options.run(function(option) { %> <option><%= option %></option> <% }); %></select></div>"
+    },
+    {
+      "$id": "Template:8fbf5997-1b1c-41a2-a3dc-91482fc8172f",
+      "Id": "8fbf5997-1b1c-41a2-a3dc-91482fc8172f",
+      "Name": "PersistentObjectAttribute_Edit_DropDown",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_DropDown\"><select class=\"persistentObjectAttributeEditSelect\"></select></div>"
+    },
+    {
+      "$id": "Template:95b4e982-8285-4004-8eb5-eb768fd2d394",
+      "Id": "95b4e982-8285-4004-8eb5-eb768fd2d394",
+      "Name": "PersistentObjectAttribute_Edit_NullableDate",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_Date\">\n  <button type=\"button\" class=\"persistentObjectAttributeButton clearButton persistentObjectAttributeValuePartRight\" tabIndex=\"-1\"></button>\n  <div class=\"persistentObjectAttributeValuePartFill\"><input class=\"persistentObjectAttributeEditDateInput\" type=\"text\"></input></div>\n</div>"
+    },
+    {
+      "$id": "Template:98d427dd-6819-4199-bff6-d3bb9616f21c",
+      "Id": "98d427dd-6819-4199-bff6-d3bb9616f21c",
+      "Name": "PersistentObjectAttribute_Edit_Time",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_Time\"><input class=\"persistentObjectAttributeEditTime\" type=\"text\"></input></div>"
+    },
+    {
+      "$id": "Template:9db770fa-2872-4057-8e84-3fde45a13a30",
+      "Id": "9db770fa-2872-4057-8e84-3fde45a13a30",
+      "Name": "PersistentObjectAttribute_Edit_NullableBoolean",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_YesNo\">\n  <div class=\"persistentObjectAttributeRadioSet\" style=\"display:none\">    \n    <% var rnd = getRandom(); %>\n    <input type=\"radio\" id=\"attribute_<%=name+rnd%>_true\" name=\"attribute_<%=name%>_radio\" value=\"true\"></input><label for=\"attribute_<%=name+rnd%>_true\"><%=Vidyano.app.getTranslatedMessage(getTypeHint(\"TrueKey\", \"True\"))%></label>\n    <input type=\"radio\" id=\"attribute_<%=name+rnd%>_null\" name=\"attribute_<%=name%>_radio\" value=\"null\"></input><label for=\"attribute_<%=name+rnd%>_null\">&nbsp;</label>\n    <input type=\"radio\" id=\"attribute_<%=name+rnd%>_false\" name=\"attribute_<%=name%>_radio\" value=\"false\"></input><label for=\"attribute_<%=name+rnd%>_false\"><%=Vidyano.app.getTranslatedMessage(getTypeHint(\"FalseKey\", \"False\"))%></label>\n  </div>\n</div>"
+    },
+    {
+      "$id": "Template:a110e8ee-f9a7-4fe8-8581-b6c1debc67b4",
+      "Id": "a110e8ee-f9a7-4fe8-8581-b6c1debc67b4",
+      "Name": "PersistentObjectAttribute_Edit_DEFAULT",
+      "IsSystem": true,
+      "Data": "<input type=\"text\" id=\"<%= id %>\" value=\"<%- value %>\" onkeyup=\"$(this).attributeChanged(false)\" onblur=\"$(this).attributeChanged(true)\" style=\"width:100%\"></input>"
+    },
+    {
+      "$id": "Template:a782abc5-9c9d-43d4-a8c1-41a9e60f8f2c",
+      "Id": "a782abc5-9c9d-43d4-a8c1-41a9e60f8f2c",
+      "Name": "PersistentObjectAttribute_Edit_KeyValueList",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_DropDown\"><select class=\"persistentObjectAttributeEditSelect\"></select></div>"
+    },
+    {
+      "$id": "Template:a80fb659-9ebe-456d-ab1f-344c1f202724",
+      "Id": "a80fb659-9ebe-456d-ab1f-344c1f202724",
+      "Name": "PersistentObjectAttribute_Edit_User",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_User\">\n  <button type=\"button\" class=\"persistentObjectAttributeButton clearButton persistentObjectAttributeValuePartRight\" tabIndex=\"-1\"></button>\n  <button type=\"button\" class=\"persistentObjectAttributeButton persistentObjectAttributeValuePartRight browseReferenceButton\" tabIndex=\"-1\"></button>\n  <div class=\"persistentObjectAttributeValuePartFill\"><input type=\"text\" readonly=\"readonly\"></input></div>\n</div>"
+    },
+    {
+      "$id": "Template:aa837492-0669-4580-9bc6-f949eb99f298",
+      "Id": "aa837492-0669-4580-9bc6-f949eb99f298",
+      "Name": "PersistentObject_GlobalSearch",
+      "IsSystem": true,
+      "Data": "<span><%= Vidyano.app.getTranslatedMessage(\"NoResultsFound\") %></span>"
+    },
+    {
+      "$id": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88",
+      "Id": "b7a5cc2a-a7a2-4e35-92d6-064121b85e88",
+      "Name": "PersistentObjectAttribute_DEFAULT",
+      "IsSystem": true,
+      "Data": "<span><%= displayValue() %></span>"
+    },
+    {
+      "$id": "Template:bd4108f2-585a-4b66-ada5-4ba5257ecd38",
+      "Id": "bd4108f2-585a-4b66-ada5-4ba5257ecd38",
+      "Name": "PersistentObjectAttribute_Edit_DateTime",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_DateTime\">\n  <div class=\"persistentObjectAttributeValuePartFill\" >\n    <div class=\"persistentObjectAttributeValueTwoPartShare\"><input class=\"persistentObjectAttributeEditDateInput\" type=\"text\"></input></div>\n    <div class=\"persistentObjectAttributeValueTwoPartShare\"><input class=\"persistentObjectAttributeEditTime\" type=\"text\"></input></div>\n  </div>\n</div>"
+    },
+    {
+      "$id": "Template:bfff11cc-31f8-4d81-84b2-6720d80be7b8",
+      "Id": "bfff11cc-31f8-4d81-84b2-6720d80be7b8",
+      "Name": "PersistentObjectAttribute_Edit_MultiLineString",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_MultiLineString\">\n  <textarea <% if(getTypeHint(\"MaxLength\",0) != 0) { print('maxlength=\"' + getTypeHint(\"MaxLength\",0) + '\"')} %> onkeyup=\"$(this).attributeChanged(false)\" onblur=\"$(this).attributeChanged(true)\" style=\"height:<%=getTypeHint(\"Height\",75)%>px\"><%- value %></textarea>\n</div>"
+    },
+    {
+      "$id": "Template:c211ea94-534c-4a53-ac8e-efcc374b3946",
+      "Id": "c211ea94-534c-4a53-ac8e-efcc374b3946",
+      "Name": "PersistentObjectAttribute_Edit_YesNo",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_YesNo\">\n  <div class=\"persistentObjectAttributeRadioSet\" style=\"display:none\">\n    <% var rnd = getRandom(); %>\n    <input type=\"radio\" id=\"attribute_<%=name+rnd%>_true\" name=\"attribute_<%=name%>_radio\" value=\"true\"></input><label for=\"attribute_<%=name+rnd%>_true\"><%=Vidyano.app.getTranslatedMessage(getTypeHint(\"TrueKey\", \"Yes\"))%></label>\n    <input type=\"radio\" id=\"attribute_<%=name+rnd%>_false\" name=\"attribute_<%=name%>_radio\" value=\"false\"></input><label for=\"attribute_<%=name+rnd%>_false\"><%=Vidyano.app.getTranslatedMessage(getTypeHint(\"FalseKey\", \"No\"))%></label>\n  </div>\n</div>"
+    },
+    {
+      "$id": "Template:cc09c4b6-a4f6-4437-a934-a1d2a9cd8e59",
+      "Id": "cc09c4b6-a4f6-4437-a934-a1d2a9cd8e59",
+      "Name": "PersistentObject_LogVerboseData",
+      "IsSystem": true,
+      "Data": "<div data-vidyano-attribute=\"Data\" style=\"position: absolute;left: 0;right: 0;top: 0;bottom: 0;\"></div>"
+    },
+    {
+      "$id": "Template:d27b6c7f-5d32-45ac-9445-1cecbfc38b2b",
+      "Id": "d27b6c7f-5d32-45ac-9445-1cecbfc38b2b",
+      "Name": "PersistentObjectAttribute_Edit_NullableTime",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_Time\">\n  <button type=\"button\" class=\"persistentObjectAttributeButton persistentObjectAttributeValuePartRight clearButton\" tabIndex=\"-1\"></button>\n  <div class=\"persistentObjectAttributeValuePartFill\"><input class=\"persistentObjectAttributeEditTime\" type=\"text\"></input></div>\n</div>"
+    },
+    {
+      "$id": "Template:d8d900ad-29fe-4497-a2ed-c87143681330",
+      "Id": "d8d900ad-29fe-4497-a2ed-c87143681330",
+      "Name": "PersistentObject_License",
+      "IsSystem": true,
+      "Data": "<div>\n  <label data-vidyano-attribute=\"ApplicationToken\"></label><div><div data-vidyano-attribute=\"ApplicationToken\" style=\"width: 300px\"></div></div>\n  <label data-vidyano-attribute=\"Password\"></label><div><div data-vidyano-attribute=\"Password\" style=\"width: 300px\"></div></div>\n<% var applicationToken = obj.getAttributeValue(\"ApplicationToken\"); if (!isNullOrEmpty(applicationToken)) { %>\n  <label data-vidyano-attribute=\"IsActivated\"></label><div data-vidyano-attribute=\"IsActivated\"></div>\n  <label data-vidyano-attribute=\"Expires\"></label><div data-vidyano-attribute=\"Expires\"></div>\n  <label data-vidyano-attribute=\"MaxUsers\"></label><div data-vidyano-attribute=\"MaxUsers\"></div>\n<% } else { %>\n  <label class=\"persistentObjectAttributeLabel\"><a href=\"http://www.vidyano.com/Buy\" target=\"_blank\">Buy Application token</a>&nbsp;&nbsp;&mdash;&nbsp;&nbsp;<a href=\"#!/\" onclick=\"Vidyano.app._requestTrial(); return false;\">Request a free Trial token</a><label>\n<% } %>\n</div>"
+    },
+    {
+      "$id": "Template:e849ede4-2d23-4e00-ab59-683a554b3378",
+      "Id": "e849ede4-2d23-4e00-ab59-683a554b3378",
+      "Name": "PersistentObjectAttribute_Image",
+      "IsSystem": true,
+      "Data": "<% if (!isNullOrWhiteSpace(value)) { %><a href=\"<%= value.asDataUri() %>\" target=\"_blank\"><img src=\"<%= value.asDataUri() %>\" <% var w = getTypeHint(\"Width\", \"24\"); var h = getTypeHint(\"Height\", \"24\"); if (w != \"auto\" && h != \"auto\") { print(\"width=\\\"\" + w + \"\\\" height=\\\"\" + h + \"\\\"\"); } else { print(w == \"auto\" ? (\"height=\\\"\" + h + \"\\\"\") : (\"width=\\\"\" + w + \"\\\"\")); } %>/></a><% } %>"
+    },
+    {
+      "$id": "Template:e9e415b8-94fd-4201-b965-8f8660cb7cf9",
+      "Id": "e9e415b8-94fd-4201-b965-8f8660cb7cf9",
+      "Name": "PersistentObjectAttribute_Edit_String",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_String\"><div class=\"persistentObjectAttributeButton suggestButton persistentObjectAttributeValuePartRight\"></div><div class=\"persistentObjectAttributeValuePartFill\"><input type=\"<%=getTypeHint(\"InputType\", \"text\")%>\" <% if(getTypeHint(\"MaxLength\", 0) != 0) { print('maxlength=\"' + getTypeHint(\"MaxLength\", 0) + '\"')} %>></input></div></div>"
+    },
+    {
+      "$id": "Template:ed5a0666-2f24-414a-8a90-1756c49661cd",
+      "Id": "ed5a0666-2f24-414a-8a90-1756c49661cd",
+      "Name": "PersistentObjectAttribute_Password",
+      "IsSystem": true,
+      "Data": "<span>••••••</span>"
+    },
+    {
+      "$id": "Template:f29e30bc-ce67-4f9b-87ad-56bbab842cf3",
+      "Id": "f29e30bc-ce67-4f9b-87ad-56bbab842cf3",
+      "Name": "PersistentObjectAttribute_Edit_DateTimeOffset",
+      "IsSystem": true,
+      "Data": "<div class=\"persistentObjectAttribute_Edit_DateTimeOffset persistentObjectAttributeValuePartFill\">\n  <div class=\"persistentObjectAttributeValueThreePartShare\"><input class=\"persistentObjectAttributeEditDateInput\" type=\"text\"></input></div>\n  <div class=\"persistentObjectAttributeValueThreePartShare\"><input class=\"persistentObjectAttributeEditTime\" type=\"text\"></input></div>\n  <div class=\"persistentObjectAttributeValueThreePartShare\"><select class=\"persistentObjectAttributeEditOffset\"></select></div>\n</div>"
+    },
+    {
+      "$id": "Template:fa2a2b12-996a-4ad2-b416-63a723bfdc12",
+      "Id": "fa2a2b12-996a-4ad2-b416-63a723bfdc12",
+      "Name": "QueryColumn_Image",
+      "IsSystem": true
+    }
+  ],
+  "DataTypes": {
+    "AsDetail": {
+      "$id": "DataType:AsDetail",
+      "IsSystem": true,
+      "CanSort": false,
+      "CanFilter": false,
+      "CanListDistincts": false,
+      "AttributeEdit": {
+        "$ref": "Template:2e0f5579-35fd-4cb2-bb7c-992bbe3b6587"
+      },
+      "Attribute": {
+        "$ref": "Template:63ae4bc2-371d-4db5-9fcd-469ff6f5ef36"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "BinaryFile": {
+      "$id": "DataType:BinaryFile",
+      "IsSystem": true,
+      "CanSort": false,
+      "CanFilter": false,
+      "CanListDistincts": false,
+      "AttributeEdit": {
+        "$ref": "Template:645e6a65-4132-45bd-b9f7-891cbf7b7eeb"
+      },
+      "Attribute": {
+        "$ref": "Template:385d55b6-75fd-4e63-92cf-2427fd82b8f9"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "Boolean": {
+      "$id": "DataType:Boolean",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:5256f01e-1e54-4969-9dd2-d67944dfba9e"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "Byte": {
+      "$id": "DataType:Byte",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:1641ce2e-5a3d-4a37-9b96-6b78bebfebd1"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "ComboBox": {
+      "$id": "DataType:ComboBox",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:6099c1a1-9f34-44da-ac4a-fc79dc2f4792"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "CommonMark": {
+      "$id": "DataType:CommonMark",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:bfff11cc-31f8-4d81-84b2-6720d80be7b8"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "Date": {
+      "$id": "DataType:Date",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:0bb94fa1-2508-481f-9e20-c29500e99a69"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "DateTime": {
+      "$id": "DataType:DateTime",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:bd4108f2-585a-4b66-ada5-4ba5257ecd38"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "DateTimeOffset": {
+      "$id": "DataType:DateTimeOffset",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:f29e30bc-ce67-4f9b-87ad-56bbab842cf3"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "Decimal": {
+      "$id": "DataType:Decimal",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:1641ce2e-5a3d-4a37-9b96-6b78bebfebd1"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "Double": {
+      "$id": "DataType:Double",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:1641ce2e-5a3d-4a37-9b96-6b78bebfebd1"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "DropDown": {
+      "$id": "DataType:DropDown",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:8fbf5997-1b1c-41a2-a3dc-91482fc8172f"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "Enum": {
+      "$id": "DataType:Enum",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:8fbf5997-1b1c-41a2-a3dc-91482fc8172f"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "FlagsEnum": {
+      "$id": "DataType:FlagsEnum",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:79d3d0b5-78d1-4150-8215-c9f9acc13385"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "Geography": {
+      "$id": "DataType:Geography",
+      "IsSystem": true,
+      "CanSort": false,
+      "CanFilter": true,
+      "CanListDistincts": false,
+      "AttributeEdit": {
+        "$ref": "Template:e9e415b8-94fd-4201-b965-8f8660cb7cf9"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "Guid": {
+      "$id": "DataType:Guid",
+      "IsSystem": true,
+      "CanSort": false,
+      "CanFilter": false,
+      "CanListDistincts": false,
+      "AttributeEdit": {
+        "$ref": "Template:700c8a54-1c5c-4f73-9d40-c9ba45faf9f3"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "Image": {
+      "$id": "DataType:Image",
+      "IsSystem": true,
+      "CanSort": false,
+      "CanFilter": false,
+      "CanListDistincts": false,
+      "AttributeEdit": {
+        "$ref": "Template:07ee5ebd-7000-423a-b87d-8f6ead81fda7"
+      },
+      "Attribute": {
+        "$ref": "Template:e849ede4-2d23-4e00-ab59-683a554b3378"
+      },
+      "Column": {
+        "$ref": "Template:fa2a2b12-996a-4ad2-b416-63a723bfdc12"
+      }
+    },
+    "Int16": {
+      "$id": "DataType:Int16",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:1641ce2e-5a3d-4a37-9b96-6b78bebfebd1"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "Int32": {
+      "$id": "DataType:Int32",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:1641ce2e-5a3d-4a37-9b96-6b78bebfebd1"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "Int64": {
+      "$id": "DataType:Int64",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:1641ce2e-5a3d-4a37-9b96-6b78bebfebd1"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "KeyValueList": {
+      "$id": "DataType:KeyValueList",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:a782abc5-9c9d-43d4-a8c1-41a9e60f8f2c"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "MultiLineString": {
+      "$id": "DataType:MultiLineString",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:bfff11cc-31f8-4d81-84b2-6720d80be7b8"
+      },
+      "Attribute": {
+        "$ref": "Template:11aa1940-26ca-473f-864e-a97b0d4adbba"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "MultiString": {
+      "$id": "DataType:MultiString",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:4865df2c-404b-4517-a1b2-c4e8dd43dc34"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "NullableBoolean": {
+      "$id": "DataType:NullableBoolean",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:9db770fa-2872-4057-8e84-3fde45a13a30"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "NullableByte": {
+      "$id": "DataType:NullableByte",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:1641ce2e-5a3d-4a37-9b96-6b78bebfebd1"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "NullableDate": {
+      "$id": "DataType:NullableDate",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:95b4e982-8285-4004-8eb5-eb768fd2d394"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "NullableDateTime": {
+      "$id": "DataType:NullableDateTime",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:1902bc0f-c836-487b-bd39-8699750f30cf"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "NullableDateTimeOffset": {
+      "$id": "DataType:NullableDateTimeOffset",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:5f45418c-3bad-4bf8-99e9-554cf5923ee4"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "NullableDecimal": {
+      "$id": "DataType:NullableDecimal",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:1641ce2e-5a3d-4a37-9b96-6b78bebfebd1"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "NullableDouble": {
+      "$id": "DataType:NullableDouble",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:1641ce2e-5a3d-4a37-9b96-6b78bebfebd1"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "NullableGuid": {
+      "$id": "DataType:NullableGuid",
+      "IsSystem": true,
+      "CanSort": false,
+      "CanFilter": false,
+      "CanListDistincts": false,
+      "AttributeEdit": {
+        "$ref": "Template:64eb6cec-f773-4795-8b0d-bef2d1647ab9"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "NullableInt16": {
+      "$id": "DataType:NullableInt16",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:1641ce2e-5a3d-4a37-9b96-6b78bebfebd1"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "NullableInt32": {
+      "$id": "DataType:NullableInt32",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:1641ce2e-5a3d-4a37-9b96-6b78bebfebd1"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "NullableInt64": {
+      "$id": "DataType:NullableInt64",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:1641ce2e-5a3d-4a37-9b96-6b78bebfebd1"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "NullableSByte": {
+      "$id": "DataType:NullableSByte",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:1641ce2e-5a3d-4a37-9b96-6b78bebfebd1"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "NullableSingle": {
+      "$id": "DataType:NullableSingle",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:1641ce2e-5a3d-4a37-9b96-6b78bebfebd1"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "NullableTime": {
+      "$id": "DataType:NullableTime",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:d27b6c7f-5d32-45ac-9445-1cecbfc38b2b"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "NullableUInt16": {
+      "$id": "DataType:NullableUInt16",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:1641ce2e-5a3d-4a37-9b96-6b78bebfebd1"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "NullableUInt32": {
+      "$id": "DataType:NullableUInt32",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:1641ce2e-5a3d-4a37-9b96-6b78bebfebd1"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "NullableUInt64": {
+      "$id": "DataType:NullableUInt64",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:1641ce2e-5a3d-4a37-9b96-6b78bebfebd1"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "NullableUser": {
+      "$id": "DataType:NullableUser",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:a80fb659-9ebe-456d-ab1f-344c1f202724"
+      },
+      "Attribute": {
+        "$ref": "Template:34b00ecc-344e-40cb-9bb0-df1272310191"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "Password": {
+      "$id": "DataType:Password",
+      "IsSystem": true,
+      "CanSort": false,
+      "CanFilter": false,
+      "CanListDistincts": false,
+      "AttributeEdit": {
+        "$ref": "Template:61dbcbb0-2f01-402d-9b30-3422cf41ee39"
+      },
+      "Attribute": {
+        "$ref": "Template:ed5a0666-2f24-414a-8a90-1756c49661cd"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "Reference": {
+      "$id": "DataType:Reference",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:21bdfcc1-15db-4400-a803-0bf3f12ad8a6"
+      },
+      "Attribute": {
+        "$ref": "Template:75448ab5-7c4f-4526-bc38-f4cb7b0cdbef"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "SByte": {
+      "$id": "DataType:SByte",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:1641ce2e-5a3d-4a37-9b96-6b78bebfebd1"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "Single": {
+      "$id": "DataType:Single",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:1641ce2e-5a3d-4a37-9b96-6b78bebfebd1"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "String": {
+      "$id": "DataType:String",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:e9e415b8-94fd-4201-b965-8f8660cb7cf9"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "Time": {
+      "$id": "DataType:Time",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:98d427dd-6819-4199-bff6-d3bb9616f21c"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "TranslatedString": {
+      "$id": "DataType:TranslatedString",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:2df22684-fb7e-4f03-bf8d-4510f7ab6429"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "UInt16": {
+      "$id": "DataType:UInt16",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:1641ce2e-5a3d-4a37-9b96-6b78bebfebd1"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "UInt32": {
+      "$id": "DataType:UInt32",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:1641ce2e-5a3d-4a37-9b96-6b78bebfebd1"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "UInt64": {
+      "$id": "DataType:UInt64",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:1641ce2e-5a3d-4a37-9b96-6b78bebfebd1"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "User": {
+      "$id": "DataType:User",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:a80fb659-9ebe-456d-ab1f-344c1f202724"
+      },
+      "Attribute": {
+        "$ref": "Template:34b00ecc-344e-40cb-9bb0-df1272310191"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    },
+    "YesNo": {
+      "$id": "DataType:YesNo",
+      "IsSystem": true,
+      "CanSort": true,
+      "CanFilter": true,
+      "CanListDistincts": true,
+      "AttributeEdit": {
+        "$ref": "Template:c211ea94-534c-4a53-ac8e-efcc374b3946"
+      },
+      "Attribute": {
+        "$ref": "Template:b7a5cc2a-a7a2-4e35-92d6-064121b85e88"
+      },
+      "Column": {
+        "$ref": "Template:6674a5e0-639a-4f58-854b-ae1f1c729a0f"
+      }
+    }
+  },
+  "Rules": {},
+  "Schemas": {
+    "CRM": {
+      "PersistentObjects": {
+        "7fa4deb5-7337-372a-9cd3-a77d4ef2dd4e": {
+          "$id": "PersistentObject:7fa4deb5-7337-372a-9cd3-a77d4ef2dd4e",
+          "SchemaName": "CRM",
+          "Type": "Address",
+          "Breadcrumb": "{AddressLine}",
+          "ContextProperty": "Addresses",
+          "Label": {
+            "en": "Address"
+          },
+          "Help": [],
+          "ActionCodes": [],
+          "Groups": [
+            {
+              "$id": "PersistentObjectAttributeGroup:240f6e25-5993-4bfc-864c-6b607a0298cd",
+              "Id": "240f6e25-5993-4bfc-864c-6b607a0298cd"
+            }
+          ],
+          "Tabs": [
+            {
+              "$id": "PersistentObjectAttributeTab:bdb33835-8759-4df8-9d6f-afd799ee1e1d",
+              "Id": "bdb33835-8759-4df8-9d6f-afd799ee1e1d"
+            }
+          ],
+          "Attributes": [
+            {
+              "$id": "PersistentObjectAttribute:9f760814-94a6-32db-8361-5c6afc655ef4",
+              "Id": "9f760814-94a6-32db-8361-5c6afc655ef4",
+              "Offset": 20,
+              "Rules": "NotEmpty; MaxLength(60)",
+              "Name": "AddressLine",
+              "Label": {
+                "en": "Address line"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:240f6e25-5993-4bfc-864c-6b607a0298cd"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:bdb33835-8759-4df8-9d6f-afd799ee1e1d"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:a2f6f3f6-ce9c-3e86-b0d0-401779b42c9c",
+              "Id": "a2f6f3f6-ce9c-3e86-b0d0-401779b42c9c",
+              "Offset": 10,
+              "Rules": "NotEmpty; MaxLength(50)",
+              "Name": "AddressType",
+              "Label": {
+                "en": "Address type"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:240f6e25-5993-4bfc-864c-6b607a0298cd"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:bdb33835-8759-4df8-9d6f-afd799ee1e1d"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:903bc9dd-597a-3fdf-ac55-0c8622ea4b5f",
+              "Id": "903bc9dd-597a-3fdf-ac55-0c8622ea4b5f",
+              "Offset": 30,
+              "Rules": "NotEmpty; MaxLength(30)",
+              "Name": "City",
+              "Label": {
+                "en": "City"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:240f6e25-5993-4bfc-864c-6b607a0298cd"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:bdb33835-8759-4df8-9d6f-afd799ee1e1d"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:3eab76d6-45fe-36b5-a210-94b1ed5f38bf",
+              "Id": "3eab76d6-45fe-36b5-a210-94b1ed5f38bf",
+              "Offset": 50,
+              "Rules": "NotEmpty; MaxLength(50)",
+              "Name": "CountryRegion",
+              "Label": {
+                "en": "Country region"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:240f6e25-5993-4bfc-864c-6b607a0298cd"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:bdb33835-8759-4df8-9d6f-afd799ee1e1d"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttributeWithReference:672083b0-37b6-361e-893f-55f8b917413e",
+              "$type": "Vidyano.Service.Repository.PersistentObjectAttributeWithReference, Vidyano.Service",
+              "DisplayAttribute": "FirstName",
+              "LookupId": "441a8776-5644-4aa6-888e-56da985f4284",
+              "Id": "672083b0-37b6-361e-893f-55f8b917413e",
+              "Offset": 90,
+              "Rules": "Required",
+              "Name": "Customer",
+              "Label": {
+                "en": "Customer"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Reference"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:240f6e25-5993-4bfc-864c-6b607a0298cd"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:bdb33835-8759-4df8-9d6f-afd799ee1e1d"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:6b47d4aa-3072-3f2a-802a-11d864db75f2",
+              "Id": "6b47d4aa-3072-3f2a-802a-11d864db75f2",
+              "Offset": 70,
+              "Rules": "Required",
+              "Name": "Latitude",
+              "Label": {
+                "en": "Latitude"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Decimal"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:240f6e25-5993-4bfc-864c-6b607a0298cd"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:bdb33835-8759-4df8-9d6f-afd799ee1e1d"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:0e24957b-849e-3869-94c0-11da25e27f9c",
+              "Id": "0e24957b-849e-3869-94c0-11da25e27f9c",
+              "Offset": 80,
+              "Rules": "Required",
+              "Name": "Longitude",
+              "Label": {
+                "en": "Longitude"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Decimal"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:240f6e25-5993-4bfc-864c-6b607a0298cd"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:bdb33835-8759-4df8-9d6f-afd799ee1e1d"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:d3a78169-dc18-3629-adc9-15c56faba501",
+              "Id": "d3a78169-dc18-3629-adc9-15c56faba501",
+              "Offset": 60,
+              "Rules": "NotEmpty; MaxLength(15)",
+              "Name": "PostalCode",
+              "Label": {
+                "en": "Postal code"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:240f6e25-5993-4bfc-864c-6b607a0298cd"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:bdb33835-8759-4df8-9d6f-afd799ee1e1d"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:505091d6-d6ae-3776-bbb9-b1b0ba73fcb6",
+              "Id": "505091d6-d6ae-3776-bbb9-b1b0ba73fcb6",
+              "Offset": 40,
+              "Rules": "NotEmpty; MaxLength(50)",
+              "Name": "StateProvince",
+              "Label": {
+                "en": "State province"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:240f6e25-5993-4bfc-864c-6b607a0298cd"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:bdb33835-8759-4df8-9d6f-afd799ee1e1d"
+              }
+            }
+          ],
+          "Queries": [
+            "3b31b647-9d34-4d58-b659-812a17331461",
+            "6658ad68-1f9c-43aa-bec4-bd5b1e944de8"
+          ]
+        },
+        "0fc43fdf-93ce-376b-86a9-d517225d85b7": {
+          "$id": "PersistentObject:0fc43fdf-93ce-376b-86a9-d517225d85b7",
+          "SchemaName": "CRM",
+          "Type": "Customer",
+          "Breadcrumb": "{FirstName}",
+          "ContextProperty": "Customers",
+          "Label": {
+            "en": "Customer"
+          },
+          "Help": [],
+          "ActionCodes": [],
+          "Groups": [
+            {
+              "$id": "PersistentObjectAttributeGroup:dbfd5f6a-4f6b-4690-9dec-ff3ead1a322c",
+              "Id": "dbfd5f6a-4f6b-4690-9dec-ff3ead1a322c"
+            }
+          ],
+          "Tabs": [
+            {
+              "$id": "PersistentObjectAttributeTab:21f0e17e-a555-44b0-8fc6-1ac2e1afc0c4",
+              "Id": "21f0e17e-a555-44b0-8fc6-1ac2e1afc0c4"
+            }
+          ],
+          "Attributes": [
+            {
+              "$id": "PersistentObjectAttribute:a2d9ce3d-0c84-335e-b26b-528bcfdadbd8",
+              "Id": "a2d9ce3d-0c84-335e-b26b-528bcfdadbd8",
+              "Offset": 50,
+              "Rules": "MaxLength(128)",
+              "Name": "CompanyName",
+              "Label": {
+                "en": "Company name"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:dbfd5f6a-4f6b-4690-9dec-ff3ead1a322c"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:21f0e17e-a555-44b0-8fc6-1ac2e1afc0c4"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:3ca88705-5da1-3caa-9759-aa30ff362750",
+              "Id": "3ca88705-5da1-3caa-9759-aa30ff362750",
+              "Offset": 60,
+              "Rules": "MaxLength(50); IsEmail",
+              "Name": "EmailAddress",
+              "Label": {
+                "en": "Email address"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:dbfd5f6a-4f6b-4690-9dec-ff3ead1a322c"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:21f0e17e-a555-44b0-8fc6-1ac2e1afc0c4"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:a9a22340-d92d-36bb-8580-cd4bd6f27b28",
+              "Id": "a9a22340-d92d-36bb-8580-cd4bd6f27b28",
+              "Offset": 10,
+              "Rules": "NotEmpty; MaxLength(50)",
+              "Name": "FirstName",
+              "Label": {
+                "en": "First name"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:dbfd5f6a-4f6b-4690-9dec-ff3ead1a322c"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:21f0e17e-a555-44b0-8fc6-1ac2e1afc0c4"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:19fbea21-3490-3e3c-bbdb-01bc7949b58c",
+              "Id": "19fbea21-3490-3e3c-bbdb-01bc7949b58c",
+              "Offset": 80,
+              "Rules": "Required",
+              "Name": "IsActive",
+              "Label": {
+                "en": "Is active"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Boolean"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:dbfd5f6a-4f6b-4690-9dec-ff3ead1a322c"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:21f0e17e-a555-44b0-8fc6-1ac2e1afc0c4"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:1eff6bf2-0403-3599-a603-d27d45d5b9f6",
+              "Id": "1eff6bf2-0403-3599-a603-d27d45d5b9f6",
+              "Offset": 30,
+              "Rules": "NotEmpty; MaxLength(50)",
+              "Name": "LastName",
+              "Label": {
+                "en": "Last name"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:dbfd5f6a-4f6b-4690-9dec-ff3ead1a322c"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:21f0e17e-a555-44b0-8fc6-1ac2e1afc0c4"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:48fa2c2c-4443-38b8-81f5-cbd802f0d4e8",
+              "Id": "48fa2c2c-4443-38b8-81f5-cbd802f0d4e8",
+              "Offset": 20,
+              "Rules": "MaxLength(50)",
+              "Name": "MiddleName",
+              "Label": {
+                "en": "Middle name"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:dbfd5f6a-4f6b-4690-9dec-ff3ead1a322c"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:21f0e17e-a555-44b0-8fc6-1ac2e1afc0c4"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:c7c4d11f-63d8-3ee2-981e-025011ccd596",
+              "Id": "c7c4d11f-63d8-3ee2-981e-025011ccd596",
+              "Offset": 70,
+              "Rules": "MaxLength(25)",
+              "Name": "Phone",
+              "Label": {
+                "en": "Phone"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:dbfd5f6a-4f6b-4690-9dec-ff3ead1a322c"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:21f0e17e-a555-44b0-8fc6-1ac2e1afc0c4"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:9475aea9-a152-30cf-bdd4-b998134525a8",
+              "Id": "9475aea9-a152-30cf-bdd4-b998134525a8",
+              "Offset": 40,
+              "Rules": "MaxLength(10)",
+              "Name": "Suffix",
+              "Label": {
+                "en": "Suffix"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:dbfd5f6a-4f6b-4690-9dec-ff3ead1a322c"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:21f0e17e-a555-44b0-8fc6-1ac2e1afc0c4"
+              }
+            }
+          ],
+          "Queries": [
+            "4f299500-7b21-4018-aaeb-88b958098135",
+            "6c05e47a-7ea3-45d9-9fd8-e7cf78d8c682"
+          ]
+        },
+        "6c7361aa-03fa-37ba-aeab-5ec3517cec94": {
+          "$id": "PersistentObject:6c7361aa-03fa-37ba-aeab-5ec3517cec94",
+          "SchemaName": "CRM",
+          "Type": "Product",
+          "Breadcrumb": "{Name}",
+          "ContextProperty": "Products",
+          "Label": {
+            "en": "Product"
+          },
+          "Help": [],
+          "ActionCodes": [],
+          "Groups": [
+            {
+              "$id": "PersistentObjectAttributeGroup:057d0b76-2317-4761-bada-7c968087b022",
+              "Id": "057d0b76-2317-4761-bada-7c968087b022"
+            }
+          ],
+          "Tabs": [
+            {
+              "$id": "PersistentObjectAttributeTab:84322ee3-1619-4818-887c-479faf5d8fe9",
+              "Id": "84322ee3-1619-4818-887c-479faf5d8fe9"
+            }
+          ],
+          "Attributes": [
+            {
+              "$id": "PersistentObjectAttribute:f23ce6dc-6b04-38f6-963d-822d7b178f7c",
+              "Id": "f23ce6dc-6b04-38f6-963d-822d7b178f7c",
+              "Offset": 30,
+              "Rules": "MaxLength(15)",
+              "Name": "Color",
+              "Label": {
+                "en": "Color"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:057d0b76-2317-4761-bada-7c968087b022"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:84322ee3-1619-4818-887c-479faf5d8fe9"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:05e48d4e-699a-39cd-88ff-c9bde2d99662",
+              "Id": "05e48d4e-699a-39cd-88ff-c9bde2d99662",
+              "Offset": 100,
+              "Name": "DiscontinuedDate",
+              "Label": {
+                "en": "Discontinued date"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:NullableDate"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:057d0b76-2317-4761-bada-7c968087b022"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:84322ee3-1619-4818-887c-479faf5d8fe9"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:4dade5a4-54a2-3fb1-9253-f8d6f280e484",
+              "Id": "4dade5a4-54a2-3fb1-9253-f8d6f280e484",
+              "Offset": 50,
+              "Rules": "Required",
+              "Name": "ListPrice",
+              "Label": {
+                "en": "List price"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Decimal"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:057d0b76-2317-4761-bada-7c968087b022"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:84322ee3-1619-4818-887c-479faf5d8fe9"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:900d4f09-5211-3933-91b4-8315f7617b72",
+              "Id": "900d4f09-5211-3933-91b4-8315f7617b72",
+              "Offset": 10,
+              "Rules": "NotEmpty; MaxLength(50)",
+              "Name": "Name",
+              "Label": {
+                "en": "Name"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:057d0b76-2317-4761-bada-7c968087b022"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:84322ee3-1619-4818-887c-479faf5d8fe9"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:c7e085c1-7942-32e3-a9f0-7322778c3086",
+              "Id": "c7e085c1-7942-32e3-a9f0-7322778c3086",
+              "Offset": 20,
+              "Rules": "NotEmpty; MaxLength(25)",
+              "Name": "Number",
+              "Label": {
+                "en": "Number"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:057d0b76-2317-4761-bada-7c968087b022"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:84322ee3-1619-4818-887c-479faf5d8fe9"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:490b14da-67a7-31f4-bc99-fc9fde1efe30",
+              "Id": "490b14da-67a7-31f4-bc99-fc9fde1efe30",
+              "Offset": 110,
+              "Name": "Photo",
+              "CanSort": false,
+              "CanFilter": false,
+              "CanListDistincts": false,
+              "Label": {
+                "en": "Photo"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Image"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:057d0b76-2317-4761-bada-7c968087b022"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:84322ee3-1619-4818-887c-479faf5d8fe9"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttributeWithReference:e4072263-f11c-3274-9525-2f2af8308163",
+              "$type": "Vidyano.Service.Repository.PersistentObjectAttributeWithReference, Vidyano.Service",
+              "DisplayAttribute": "Name",
+              "LookupId": "bd0033cc-8d1d-4ac5-ba16-3579c75fe653",
+              "Id": "e4072263-f11c-3274-9525-2f2af8308163",
+              "Offset": 120,
+              "Name": "ProductCategory",
+              "Label": {
+                "en": "Product category"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Reference"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:057d0b76-2317-4761-bada-7c968087b022"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:84322ee3-1619-4818-887c-479faf5d8fe9"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttributeWithReference:671c6a1d-870a-3fd2-8b34-96c066b4b8dc",
+              "$type": "Vidyano.Service.Repository.PersistentObjectAttributeWithReference, Vidyano.Service",
+              "DisplayAttribute": "Name",
+              "LookupId": "95b272ac-b73c-4792-9323-734dbacd0745",
+              "Id": "671c6a1d-870a-3fd2-8b34-96c066b4b8dc",
+              "Offset": 130,
+              "Name": "ProductModel",
+              "Label": {
+                "en": "Product model"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Reference"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:057d0b76-2317-4761-bada-7c968087b022"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:84322ee3-1619-4818-887c-479faf5d8fe9"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:b35f6be1-9658-3e14-9914-47decdfdc053",
+              "Id": "b35f6be1-9658-3e14-9914-47decdfdc053",
+              "Offset": 90,
+              "Name": "SellEndDate",
+              "Label": {
+                "en": "Sell end date"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:NullableDate"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:057d0b76-2317-4761-bada-7c968087b022"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:84322ee3-1619-4818-887c-479faf5d8fe9"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:bc268f8c-f26b-34e3-9c66-7d27e94f2dfd",
+              "Id": "bc268f8c-f26b-34e3-9c66-7d27e94f2dfd",
+              "Offset": 80,
+              "Rules": "Required",
+              "Name": "SellStartDate",
+              "Label": {
+                "en": "Sell start date"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Date"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:057d0b76-2317-4761-bada-7c968087b022"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:84322ee3-1619-4818-887c-479faf5d8fe9"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:038b4cb9-7e2c-3c00-80b6-678cdaa134fd",
+              "Id": "038b4cb9-7e2c-3c00-80b6-678cdaa134fd",
+              "Offset": 60,
+              "Rules": "MaxLength(5)",
+              "Name": "Size",
+              "Label": {
+                "en": "Size"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:057d0b76-2317-4761-bada-7c968087b022"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:84322ee3-1619-4818-887c-479faf5d8fe9"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:ff2b77a2-ed90-311d-964d-2fd886f769fa",
+              "Id": "ff2b77a2-ed90-311d-964d-2fd886f769fa",
+              "Offset": 40,
+              "Rules": "Required",
+              "Name": "StandardCost",
+              "Label": {
+                "en": "Standard cost"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Decimal"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:057d0b76-2317-4761-bada-7c968087b022"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:84322ee3-1619-4818-887c-479faf5d8fe9"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:e0be475b-851e-3b79-91a6-c5480ada72c9",
+              "Id": "e0be475b-851e-3b79-91a6-c5480ada72c9",
+              "Offset": 70,
+              "Name": "Weight",
+              "Label": {
+                "en": "Weight"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:NullableDecimal"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:057d0b76-2317-4761-bada-7c968087b022"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:84322ee3-1619-4818-887c-479faf5d8fe9"
+              }
+            }
+          ],
+          "Queries": [
+            "627d89b8-a7ea-4596-b0c0-387328fedd7a"
+          ]
+        },
+        "bf6e64ed-c0e6-323b-a9df-721740dff509": {
+          "$id": "PersistentObject:bf6e64ed-c0e6-323b-a9df-721740dff509",
+          "SchemaName": "CRM",
+          "Type": "ProductCategory",
+          "Breadcrumb": "{Name}",
+          "ContextProperty": "ProductCategories",
+          "Label": {
+            "en": "Product category"
+          },
+          "Help": [],
+          "ActionCodes": [],
+          "Groups": [
+            {
+              "$id": "PersistentObjectAttributeGroup:9e531dba-91ff-4e89-b470-4128d534e087",
+              "Id": "9e531dba-91ff-4e89-b470-4128d534e087"
+            }
+          ],
+          "Tabs": [
+            {
+              "$id": "PersistentObjectAttributeTab:5703d7b9-d567-489a-8735-ce5a75ed6d75",
+              "Id": "5703d7b9-d567-489a-8735-ce5a75ed6d75"
+            }
+          ],
+          "Attributes": [
+            {
+              "$id": "PersistentObjectAttribute:c7bae70b-b959-3006-87d1-249ddbc80ce3",
+              "Id": "c7bae70b-b959-3006-87d1-249ddbc80ce3",
+              "Offset": 10,
+              "Rules": "NotEmpty; MaxLength(50)",
+              "Name": "Name",
+              "Label": {
+                "en": "Name"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:9e531dba-91ff-4e89-b470-4128d534e087"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:5703d7b9-d567-489a-8735-ce5a75ed6d75"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttributeWithReference:437464c4-4f19-345c-a00c-ddf60804e951",
+              "$type": "Vidyano.Service.Repository.PersistentObjectAttributeWithReference, Vidyano.Service",
+              "DisplayAttribute": "Name",
+              "LookupId": "bd0033cc-8d1d-4ac5-ba16-3579c75fe653",
+              "Id": "437464c4-4f19-345c-a00c-ddf60804e951",
+              "Offset": 20,
+              "Name": "ProductCategory2",
+              "Label": {
+                "en": "Product category2"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Reference"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:9e531dba-91ff-4e89-b470-4128d534e087"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:5703d7b9-d567-489a-8735-ce5a75ed6d75"
+              }
+            }
+          ],
+          "Queries": [
+            "b41fcea3-8d72-4e20-a7d9-710981824a68",
+            "ce885b00-86f5-4cd0-998d-15373012e6a0"
+          ]
+        },
+        "4213b155-9d11-3914-a349-08c59a1b1a53": {
+          "$id": "PersistentObject:4213b155-9d11-3914-a349-08c59a1b1a53",
+          "SchemaName": "CRM",
+          "Type": "ProductDescription",
+          "Breadcrumb": "{Description}",
+          "ContextProperty": "ProductDescriptions",
+          "Label": {
+            "en": "Product description"
+          },
+          "Help": [],
+          "ActionCodes": [],
+          "Groups": [
+            {
+              "$id": "PersistentObjectAttributeGroup:8fc978d7-9c55-42f3-ae97-664e8f8111c5",
+              "Id": "8fc978d7-9c55-42f3-ae97-664e8f8111c5"
+            }
+          ],
+          "Tabs": [
+            {
+              "$id": "PersistentObjectAttributeTab:f2676e63-b046-4d29-af01-0b03eafd8f99",
+              "Id": "f2676e63-b046-4d29-af01-0b03eafd8f99"
+            }
+          ],
+          "Attributes": [
+            {
+              "$id": "PersistentObjectAttribute:87a36275-1d9d-3de0-8bba-e644f659714c",
+              "Id": "87a36275-1d9d-3de0-8bba-e644f659714c",
+              "Offset": 10,
+              "Rules": "NotEmpty; MaxLength(400)",
+              "Name": "Description",
+              "Label": {
+                "en": "Description"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:8fc978d7-9c55-42f3-ae97-664e8f8111c5"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:f2676e63-b046-4d29-af01-0b03eafd8f99"
+              }
+            }
+          ],
+          "Queries": [
+            "7e354c22-f988-4e78-9447-361f15b6bed0"
+          ]
+        },
+        "d9ad3f78-10ba-37a1-8823-0ea385cde2be": {
+          "$id": "PersistentObject:d9ad3f78-10ba-37a1-8823-0ea385cde2be",
+          "SchemaName": "CRM",
+          "Type": "ProductModel",
+          "Breadcrumb": "{Name}",
+          "ContextProperty": "ProductModels",
+          "Label": {
+            "en": "Product model"
+          },
+          "Help": [],
+          "ActionCodes": [],
+          "Groups": [
+            {
+              "$id": "PersistentObjectAttributeGroup:74fbebd3-bd9a-4b21-b8e6-ab36e01e5628",
+              "Id": "74fbebd3-bd9a-4b21-b8e6-ab36e01e5628"
+            }
+          ],
+          "Tabs": [
+            {
+              "$id": "PersistentObjectAttributeTab:0d12a3d4-ce99-4361-b255-77c5e1b3e65b",
+              "Id": "0d12a3d4-ce99-4361-b255-77c5e1b3e65b"
+            }
+          ],
+          "Attributes": [
+            {
+              "$id": "PersistentObjectAttribute:820b84d8-c39f-3227-85e1-93b7c8abb17c",
+              "Id": "820b84d8-c39f-3227-85e1-93b7c8abb17c",
+              "Offset": 10,
+              "Rules": "NotEmpty; MaxLength(50)",
+              "Name": "Name",
+              "Label": {
+                "en": "Name"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:74fbebd3-bd9a-4b21-b8e6-ab36e01e5628"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:0d12a3d4-ce99-4361-b255-77c5e1b3e65b"
+              }
+            }
+          ],
+          "Queries": [
+            "3fa24c13-3e77-428d-9e1b-4c262a592195",
+            "a638fc2f-4a94-4855-a33d-e2779789072b"
+          ]
+        },
+        "de5f0474-5e24-39cf-94d0-abada2a984b8": {
+          "$id": "PersistentObject:de5f0474-5e24-39cf-94d0-abada2a984b8",
+          "SchemaName": "CRM",
+          "Type": "ProductModelProductDescription",
+          "Breadcrumb": "{Culture}",
+          "ContextProperty": "ProductModelProductDescriptions",
+          "Label": {
+            "en": "Product model product description"
+          },
+          "Help": [],
+          "ActionCodes": [],
+          "Groups": [
+            {
+              "$id": "PersistentObjectAttributeGroup:dc74ab05-0b6f-45a3-b68e-7b2be75ad8c7",
+              "Id": "dc74ab05-0b6f-45a3-b68e-7b2be75ad8c7"
+            }
+          ],
+          "Tabs": [
+            {
+              "$id": "PersistentObjectAttributeTab:7b620d44-56a8-4772-bf1e-1c586e23cdd7",
+              "Id": "7b620d44-56a8-4772-bf1e-1c586e23cdd7"
+            }
+          ],
+          "Attributes": [
+            {
+              "$id": "PersistentObjectAttribute:227bc112-d2bb-37dd-a942-34dd2e9d046d",
+              "Id": "227bc112-d2bb-37dd-a942-34dd2e9d046d",
+              "Offset": 30,
+              "Rules": "NotEmpty; MaxLength(6)",
+              "Name": "Culture",
+              "Label": {
+                "en": "Culture"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:dc74ab05-0b6f-45a3-b68e-7b2be75ad8c7"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:7b620d44-56a8-4772-bf1e-1c586e23cdd7"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttributeWithReference:1b46f56c-b3cb-37b6-abd7-5c23b5a496f1",
+              "$type": "Vidyano.Service.Repository.PersistentObjectAttributeWithReference, Vidyano.Service",
+              "DisplayAttribute": "Description",
+              "LookupId": "19472828-ef36-4831-b9e3-019850769bc3",
+              "Id": "1b46f56c-b3cb-37b6-abd7-5c23b5a496f1",
+              "Offset": 20,
+              "Rules": "Required",
+              "Name": "ProductDescription",
+              "Label": {
+                "en": "Product description"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Reference"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:dc74ab05-0b6f-45a3-b68e-7b2be75ad8c7"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:7b620d44-56a8-4772-bf1e-1c586e23cdd7"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttributeWithReference:2d0d4e55-d34b-3d9f-a6bb-d38adebd8142",
+              "$type": "Vidyano.Service.Repository.PersistentObjectAttributeWithReference, Vidyano.Service",
+              "DisplayAttribute": "Name",
+              "LookupId": "95b272ac-b73c-4792-9323-734dbacd0745",
+              "Id": "2d0d4e55-d34b-3d9f-a6bb-d38adebd8142",
+              "Offset": 10,
+              "Rules": "Required",
+              "Name": "ProductModel",
+              "Label": {
+                "en": "Product model"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Reference"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:dc74ab05-0b6f-45a3-b68e-7b2be75ad8c7"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:7b620d44-56a8-4772-bf1e-1c586e23cdd7"
+              }
+            }
+          ],
+          "Queries": []
+        },
+        "f41dcdb1-7f89-3cf2-a043-380d8a1dcdca": {
+          "$id": "PersistentObject:f41dcdb1-7f89-3cf2-a043-380d8a1dcdca",
+          "SchemaName": "CRM",
+          "Type": "SalesOrderDetail",
+          "Breadcrumb": "{LineTotal}",
+          "ContextProperty": "SalesOrderDetails",
+          "Label": {
+            "en": "Sales order detail"
+          },
+          "Help": [],
+          "ActionCodes": [],
+          "Groups": [
+            {
+              "$id": "PersistentObjectAttributeGroup:e8ee996b-1f78-4a50-87ad-76e6ae0be759",
+              "Id": "e8ee996b-1f78-4a50-87ad-76e6ae0be759"
+            }
+          ],
+          "Tabs": [
+            {
+              "$id": "PersistentObjectAttributeTab:33b44e0a-308c-4d94-a6b1-c9a97be9be96",
+              "Id": "33b44e0a-308c-4d94-a6b1-c9a97be9be96"
+            }
+          ],
+          "Attributes": [
+            {
+              "$id": "PersistentObjectAttribute:3dd7d5be-5d5f-3567-8c30-97e616eaac8c",
+              "Id": "3dd7d5be-5d5f-3567-8c30-97e616eaac8c",
+              "Offset": 40,
+              "Rules": "Required",
+              "Name": "LineTotal",
+              "IsReadOnly": true,
+              "Label": {
+                "en": "Line total"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Decimal"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:e8ee996b-1f78-4a50-87ad-76e6ae0be759"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:33b44e0a-308c-4d94-a6b1-c9a97be9be96"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:d9eb873d-5fa5-3d8c-a335-74eda666004b",
+              "Id": "d9eb873d-5fa5-3d8c-a335-74eda666004b",
+              "Offset": 10,
+              "Rules": "Required",
+              "Name": "OrderQty",
+              "Label": {
+                "en": "Order qty"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Int16"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:e8ee996b-1f78-4a50-87ad-76e6ae0be759"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:33b44e0a-308c-4d94-a6b1-c9a97be9be96"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttributeWithReference:26a395c7-0982-355b-a32b-b63acc725b47",
+              "$type": "Vidyano.Service.Repository.PersistentObjectAttributeWithReference, Vidyano.Service",
+              "DisplayAttribute": "Name",
+              "LookupId": "c81776d5-8e10-4e05-b5f8-aff5b2eccd3e",
+              "Id": "26a395c7-0982-355b-a32b-b63acc725b47",
+              "Offset": 50,
+              "Rules": "Required",
+              "Name": "Product",
+              "Label": {
+                "en": "Product"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Reference"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:e8ee996b-1f78-4a50-87ad-76e6ae0be759"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:33b44e0a-308c-4d94-a6b1-c9a97be9be96"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttributeWithReference:0da723f2-e4f1-35fa-ab69-685b49db913a",
+              "$type": "Vidyano.Service.Repository.PersistentObjectAttributeWithReference, Vidyano.Service",
+              "DisplayAttribute": "SalesOrderNumber",
+              "LookupId": "cd29f020-7eb3-4a6d-be8f-2aaf24dfe371",
+              "Id": "0da723f2-e4f1-35fa-ab69-685b49db913a",
+              "Offset": 60,
+              "Rules": "Required",
+              "Name": "SalesOrderHeader",
+              "Label": {
+                "en": "Sales order header"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Reference"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:e8ee996b-1f78-4a50-87ad-76e6ae0be759"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:33b44e0a-308c-4d94-a6b1-c9a97be9be96"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:f3c11883-44f3-3f24-a009-0288f2b86223",
+              "Id": "f3c11883-44f3-3f24-a009-0288f2b86223",
+              "Offset": 20,
+              "Rules": "Required",
+              "Name": "UnitPrice",
+              "Label": {
+                "en": "Unit price"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Decimal"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:e8ee996b-1f78-4a50-87ad-76e6ae0be759"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:33b44e0a-308c-4d94-a6b1-c9a97be9be96"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:43ed757f-7164-34a0-8984-aec7749f6d04",
+              "Id": "43ed757f-7164-34a0-8984-aec7749f6d04",
+              "Offset": 30,
+              "Rules": "Required",
+              "Name": "UnitPriceDiscount",
+              "Label": {
+                "en": "Unit price discount"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Decimal"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:e8ee996b-1f78-4a50-87ad-76e6ae0be759"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:33b44e0a-308c-4d94-a6b1-c9a97be9be96"
+              }
+            }
+          ],
+          "Queries": []
+        },
+        "725797b3-53b1-3512-848c-132d3b11a304": {
+          "$id": "PersistentObject:725797b3-53b1-3512-848c-132d3b11a304",
+          "SchemaName": "CRM",
+          "Type": "SalesOrderHeader",
+          "Breadcrumb": "{SalesOrderNumber}",
+          "ContextProperty": "SalesOrderHeaders",
+          "Label": {
+            "en": "Sales order header"
+          },
+          "Help": [],
+          "ActionCodes": [],
+          "Groups": [
+            {
+              "$id": "PersistentObjectAttributeGroup:13d502e6-4609-4037-8ef1-b5167624e4b6",
+              "Id": "13d502e6-4609-4037-8ef1-b5167624e4b6"
+            }
+          ],
+          "Tabs": [
+            {
+              "$id": "PersistentObjectAttributeTab:7c21c543-3984-4fda-9d82-022efc2f383b",
+              "Id": "7c21c543-3984-4fda-9d82-022efc2f383b"
+            }
+          ],
+          "Attributes": [
+            {
+              "$id": "PersistentObjectAttribute:cf788a29-1b38-390b-8fb1-2a22fc4bae56",
+              "Id": "cf788a29-1b38-390b-8fb1-2a22fc4bae56",
+              "Offset": 90,
+              "Rules": "MaxLength(15)",
+              "Name": "AccountNumber",
+              "Label": {
+                "en": "Account number"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:13d502e6-4609-4037-8ef1-b5167624e4b6"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:7c21c543-3984-4fda-9d82-022efc2f383b"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttributeWithReference:af521892-978e-3d11-93a8-90e9a8b00a34",
+              "$type": "Vidyano.Service.Repository.PersistentObjectAttributeWithReference, Vidyano.Service",
+              "DisplayAttribute": "AddressLine",
+              "LookupId": "56b56d40-b06b-44b4-9048-55a3e709f61a",
+              "Id": "af521892-978e-3d11-93a8-90e9a8b00a34",
+              "Offset": 170,
+              "Name": "Address",
+              "Label": {
+                "en": "Address"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Reference"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:13d502e6-4609-4037-8ef1-b5167624e4b6"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:7c21c543-3984-4fda-9d82-022efc2f383b"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttributeWithReference:2ff0a2df-55f6-328e-bca2-1552793eb55c",
+              "$type": "Vidyano.Service.Repository.PersistentObjectAttributeWithReference, Vidyano.Service",
+              "DisplayAttribute": "AddressLine",
+              "LookupId": "56b56d40-b06b-44b4-9048-55a3e709f61a",
+              "Id": "2ff0a2df-55f6-328e-bca2-1552793eb55c",
+              "Offset": 180,
+              "Name": "Address1",
+              "Label": {
+                "en": "Address1"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Reference"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:13d502e6-4609-4037-8ef1-b5167624e4b6"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:7c21c543-3984-4fda-9d82-022efc2f383b"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:7ceb1bda-ba9a-3c14-a2fd-7247088577e6",
+              "Id": "7ceb1bda-ba9a-3c14-a2fd-7247088577e6",
+              "Offset": 160,
+              "Name": "Comment",
+              "Label": {
+                "en": "Comment"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:MultiLineString"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:13d502e6-4609-4037-8ef1-b5167624e4b6"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:7c21c543-3984-4fda-9d82-022efc2f383b"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:22626942-3102-3af5-9ef3-acd8bbea3fa5",
+              "Id": "22626942-3102-3af5-9ef3-acd8bbea3fa5",
+              "Offset": 110,
+              "Rules": "MaxLength(15)",
+              "Name": "CreditCardApprovalCode",
+              "Label": {
+                "en": "Credit card approval code"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:13d502e6-4609-4037-8ef1-b5167624e4b6"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:7c21c543-3984-4fda-9d82-022efc2f383b"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttributeWithReference:ff2f695b-c76e-3b51-8033-3924e960a71f",
+              "$type": "Vidyano.Service.Repository.PersistentObjectAttributeWithReference, Vidyano.Service",
+              "DisplayAttribute": "FirstName",
+              "LookupId": "441a8776-5644-4aa6-888e-56da985f4284",
+              "Id": "ff2f695b-c76e-3b51-8033-3924e960a71f",
+              "Offset": 190,
+              "Rules": "Required",
+              "Name": "Customer",
+              "Label": {
+                "en": "Customer"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Reference"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:13d502e6-4609-4037-8ef1-b5167624e4b6"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:7c21c543-3984-4fda-9d82-022efc2f383b"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:b07e1bb4-9b72-3916-9166-3f4ec4b2cc98",
+              "Id": "b07e1bb4-9b72-3916-9166-3f4ec4b2cc98",
+              "Offset": 30,
+              "Rules": "Required",
+              "Name": "DueDate",
+              "Label": {
+                "en": "Due date"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Date"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:13d502e6-4609-4037-8ef1-b5167624e4b6"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:7c21c543-3984-4fda-9d82-022efc2f383b"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:24095ec1-4703-3a4f-abd5-d8b6f0d4475f",
+              "Id": "24095ec1-4703-3a4f-abd5-d8b6f0d4475f",
+              "Offset": 140,
+              "Rules": "Required",
+              "Name": "Freight",
+              "Label": {
+                "en": "Freight"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Decimal"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:13d502e6-4609-4037-8ef1-b5167624e4b6"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:7c21c543-3984-4fda-9d82-022efc2f383b"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:29269347-9de9-3581-a1c9-ad192c2730d3",
+              "Id": "29269347-9de9-3581-a1c9-ad192c2730d3",
+              "Offset": 60,
+              "Rules": "Required",
+              "Name": "OnlineOrderFlag",
+              "Label": {
+                "en": "Online order flag"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Boolean"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:13d502e6-4609-4037-8ef1-b5167624e4b6"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:7c21c543-3984-4fda-9d82-022efc2f383b"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:6f6cd0ef-d190-3f2f-94bc-a2f6045b5dec",
+              "Id": "6f6cd0ef-d190-3f2f-94bc-a2f6045b5dec",
+              "Offset": 20,
+              "Rules": "Required",
+              "Name": "OrderDate",
+              "Label": {
+                "en": "Order date"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Date"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:13d502e6-4609-4037-8ef1-b5167624e4b6"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:7c21c543-3984-4fda-9d82-022efc2f383b"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:61c665ca-db5f-3429-9a18-96913e4a60c2",
+              "Id": "61c665ca-db5f-3429-9a18-96913e4a60c2",
+              "Offset": 80,
+              "Rules": "MaxLength(25)",
+              "Name": "PurchaseOrderNumber",
+              "Label": {
+                "en": "Purchase order number"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:13d502e6-4609-4037-8ef1-b5167624e4b6"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:7c21c543-3984-4fda-9d82-022efc2f383b"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:3b7a1610-ddac-3843-ae98-ccffa71609cf",
+              "Id": "3b7a1610-ddac-3843-ae98-ccffa71609cf",
+              "Offset": 10,
+              "Rules": "Required",
+              "Name": "RevisionNumber",
+              "Label": {
+                "en": "Revision number"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Byte"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:13d502e6-4609-4037-8ef1-b5167624e4b6"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:7c21c543-3984-4fda-9d82-022efc2f383b"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:73ec49e3-2e7f-3de3-aa3e-b476ed501ced",
+              "Id": "73ec49e3-2e7f-3de3-aa3e-b476ed501ced",
+              "Offset": 70,
+              "Rules": "NotEmpty; MaxLength(25)",
+              "Name": "SalesOrderNumber",
+              "IsReadOnly": true,
+              "Label": {
+                "en": "Sales order number"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:13d502e6-4609-4037-8ef1-b5167624e4b6"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:7c21c543-3984-4fda-9d82-022efc2f383b"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:8a8fc5b6-9374-312f-ba8b-84999ee65ba8",
+              "Id": "8a8fc5b6-9374-312f-ba8b-84999ee65ba8",
+              "Offset": 40,
+              "Name": "ShipDate",
+              "Label": {
+                "en": "Ship date"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:NullableDate"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:13d502e6-4609-4037-8ef1-b5167624e4b6"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:7c21c543-3984-4fda-9d82-022efc2f383b"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:794011ef-a4eb-30c7-9fb9-0d7deb4baf3c",
+              "Id": "794011ef-a4eb-30c7-9fb9-0d7deb4baf3c",
+              "Offset": 100,
+              "Rules": "NotEmpty; MaxLength(50)",
+              "Name": "ShipMethod",
+              "Label": {
+                "en": "Ship method"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:13d502e6-4609-4037-8ef1-b5167624e4b6"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:7c21c543-3984-4fda-9d82-022efc2f383b"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:c9962e85-6d27-356a-b4bf-db6f6f015aca",
+              "Id": "c9962e85-6d27-356a-b4bf-db6f6f015aca",
+              "Offset": 50,
+              "Rules": "Required",
+              "Name": "Status",
+              "Label": {
+                "en": "Status"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Byte"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:13d502e6-4609-4037-8ef1-b5167624e4b6"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:7c21c543-3984-4fda-9d82-022efc2f383b"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:5530abf2-dce5-3977-8cdb-aa496f7c1d44",
+              "Id": "5530abf2-dce5-3977-8cdb-aa496f7c1d44",
+              "Offset": 120,
+              "Rules": "Required",
+              "Name": "SubTotal",
+              "Label": {
+                "en": "Sub total"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Decimal"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:13d502e6-4609-4037-8ef1-b5167624e4b6"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:7c21c543-3984-4fda-9d82-022efc2f383b"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:6b894ffb-6f5b-31e8-8f7a-84a90771f4cb",
+              "Id": "6b894ffb-6f5b-31e8-8f7a-84a90771f4cb",
+              "Offset": 130,
+              "Rules": "Required",
+              "Name": "TaxAmt",
+              "Label": {
+                "en": "Tax amt"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Decimal"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:13d502e6-4609-4037-8ef1-b5167624e4b6"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:7c21c543-3984-4fda-9d82-022efc2f383b"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:6c30a788-ae2b-36d1-a329-86127a1173b1",
+              "Id": "6c30a788-ae2b-36d1-a329-86127a1173b1",
+              "Offset": 150,
+              "Rules": "Required",
+              "Name": "TotalDue",
+              "IsReadOnly": true,
+              "Label": {
+                "en": "Total due"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:Decimal"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:13d502e6-4609-4037-8ef1-b5167624e4b6"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:7c21c543-3984-4fda-9d82-022efc2f383b"
+              }
+            }
+          ],
+          "Queries": [
+            "bfc393d2-b99f-4d16-830c-5eda83051e91"
+          ]
+        }
+      },
+      "Queries": {
+        "19472828-ef36-4831-b9e3-019850769bc3": {
+          "$id": "Query:19472828-ef36-4831-b9e3-019850769bc3",
+          "Source": "Database.ProductDescriptions",
+          "AutoQuery": true,
+          "Name": "ProductDescriptions",
+          "Label": {
+            "en": "Product descriptions"
+          },
+          "PersistentObject": {
+            "$ref": "PersistentObject:4213b155-9d11-3914-a349-08c59a1b1a53"
+          },
+          "Columns": []
+        },
+        "3b31b647-9d34-4d58-b659-812a17331461": {
+          "$id": "Query:3b31b647-9d34-4d58-b659-812a17331461",
+          "Offset": 20,
+          "Source": "SalesOrderHeaders1",
+          "AutoQuery": true,
+          "Name": "Address_SalesOrderHeaders1",
+          "Label": {
+            "en": "Sales order headers1"
+          },
+          "PersistentObject": {
+            "$ref": "PersistentObject:725797b3-53b1-3512-848c-132d3b11a304"
+          },
+          "Columns": []
+        },
+        "3fa24c13-3e77-428d-9e1b-4c262a592195": {
+          "$id": "Query:3fa24c13-3e77-428d-9e1b-4c262a592195",
+          "Offset": 20,
+          "Source": "ProductModelProductDescriptions",
+          "AutoQuery": true,
+          "Name": "ProductModel_ProductModelProductDescriptions",
+          "Label": {
+            "en": "Product model product descriptions"
+          },
+          "PersistentObject": {
+            "$ref": "PersistentObject:de5f0474-5e24-39cf-94d0-abada2a984b8"
+          },
+          "Columns": []
+        },
+        "441a8776-5644-4aa6-888e-56da985f4284": {
+          "$id": "Query:441a8776-5644-4aa6-888e-56da985f4284",
+          "Source": "Database.Customers",
+          "AutoQuery": true,
+          "Name": "Customers",
+          "Label": {
+            "en": "Customers"
+          },
+          "PersistentObject": {
+            "$ref": "PersistentObject:0fc43fdf-93ce-376b-86a9-d517225d85b7"
+          },
+          "Columns": []
+        },
+        "4f299500-7b21-4018-aaeb-88b958098135": {
+          "$id": "Query:4f299500-7b21-4018-aaeb-88b958098135",
+          "Offset": 10,
+          "Source": "Addresses",
+          "AutoQuery": true,
+          "Name": "Customer_Addresses",
+          "Label": {
+            "en": "Addresses"
+          },
+          "PersistentObject": {
+            "$ref": "PersistentObject:7fa4deb5-7337-372a-9cd3-a77d4ef2dd4e"
+          },
+          "Columns": []
+        },
+        "56b56d40-b06b-44b4-9048-55a3e709f61a": {
+          "$id": "Query:56b56d40-b06b-44b4-9048-55a3e709f61a",
+          "Source": "Database.Addresses",
+          "AutoQuery": true,
+          "Name": "Addresses",
+          "Label": {
+            "en": "Addresses"
+          },
+          "PersistentObject": {
+            "$ref": "PersistentObject:7fa4deb5-7337-372a-9cd3-a77d4ef2dd4e"
+          },
+          "Columns": []
+        },
+        "627d89b8-a7ea-4596-b0c0-387328fedd7a": {
+          "$id": "Query:627d89b8-a7ea-4596-b0c0-387328fedd7a",
+          "Offset": 10,
+          "Source": "SalesOrderDetails",
+          "AutoQuery": true,
+          "Name": "Product_SalesOrderDetails",
+          "Label": {
+            "en": "Sales order details"
+          },
+          "PersistentObject": {
+            "$ref": "PersistentObject:f41dcdb1-7f89-3cf2-a043-380d8a1dcdca"
+          },
+          "Columns": []
+        },
+        "6658ad68-1f9c-43aa-bec4-bd5b1e944de8": {
+          "$id": "Query:6658ad68-1f9c-43aa-bec4-bd5b1e944de8",
+          "Offset": 10,
+          "Source": "SalesOrderHeaders",
+          "AutoQuery": true,
+          "Name": "Address_SalesOrderHeaders",
+          "Label": {
+            "en": "Sales order headers"
+          },
+          "PersistentObject": {
+            "$ref": "PersistentObject:725797b3-53b1-3512-848c-132d3b11a304"
+          },
+          "Columns": []
+        },
+        "6c05e47a-7ea3-45d9-9fd8-e7cf78d8c682": {
+          "$id": "Query:6c05e47a-7ea3-45d9-9fd8-e7cf78d8c682",
+          "Offset": 20,
+          "Source": "SalesOrderHeaders",
+          "AutoQuery": true,
+          "Name": "Customer_SalesOrderHeaders",
+          "Label": {
+            "en": "Sales order headers"
+          },
+          "PersistentObject": {
+            "$ref": "PersistentObject:725797b3-53b1-3512-848c-132d3b11a304"
+          },
+          "Columns": []
+        },
+        "6e47e0cd-86a1-46a3-9622-2f6ff13a09cd": {
+          "$id": "Query:6e47e0cd-86a1-46a3-9622-2f6ff13a09cd",
+          "Source": "Database.SalesOrderDetails",
+          "AutoQuery": true,
+          "Name": "SalesOrderDetails",
+          "Label": {
+            "en": "Sales order details"
+          },
+          "PersistentObject": {
+            "$ref": "PersistentObject:f41dcdb1-7f89-3cf2-a043-380d8a1dcdca"
+          },
+          "Columns": []
+        },
+        "7e354c22-f988-4e78-9447-361f15b6bed0": {
+          "$id": "Query:7e354c22-f988-4e78-9447-361f15b6bed0",
+          "Offset": 10,
+          "Source": "ProductModelProductDescriptions",
+          "AutoQuery": true,
+          "Name": "ProductDescription_ProductModelProductDescriptions",
+          "Label": {
+            "en": "Product model product descriptions"
+          },
+          "PersistentObject": {
+            "$ref": "PersistentObject:de5f0474-5e24-39cf-94d0-abada2a984b8"
+          },
+          "Columns": []
+        },
+        "95b272ac-b73c-4792-9323-734dbacd0745": {
+          "$id": "Query:95b272ac-b73c-4792-9323-734dbacd0745",
+          "Source": "Database.ProductModels",
+          "AutoQuery": true,
+          "Name": "ProductModels",
+          "Label": {
+            "en": "Product models"
+          },
+          "PersistentObject": {
+            "$ref": "PersistentObject:d9ad3f78-10ba-37a1-8823-0ea385cde2be"
+          },
+          "Columns": []
+        },
+        "a352f61f-e6d4-4ebd-ab59-d54721477147": {
+          "$id": "Query:a352f61f-e6d4-4ebd-ab59-d54721477147",
+          "Source": "Database.ProductModelProductDescriptions",
+          "AutoQuery": true,
+          "Name": "ProductModelProductDescriptions",
+          "Label": {
+            "en": "Product model product descriptions"
+          },
+          "PersistentObject": {
+            "$ref": "PersistentObject:de5f0474-5e24-39cf-94d0-abada2a984b8"
+          },
+          "Columns": []
+        },
+        "a638fc2f-4a94-4855-a33d-e2779789072b": {
+          "$id": "Query:a638fc2f-4a94-4855-a33d-e2779789072b",
+          "Offset": 10,
+          "Source": "Products",
+          "AutoQuery": true,
+          "Name": "ProductModel_Products",
+          "Label": {
+            "en": "Products"
+          },
+          "PersistentObject": {
+            "$ref": "PersistentObject:6c7361aa-03fa-37ba-aeab-5ec3517cec94"
+          },
+          "Columns": []
+        },
+        "b41fcea3-8d72-4e20-a7d9-710981824a68": {
+          "$id": "Query:b41fcea3-8d72-4e20-a7d9-710981824a68",
+          "Offset": 20,
+          "Source": "ProductCategory1",
+          "AutoQuery": true,
+          "Name": "ProductCategory_ProductCategory1",
+          "Label": {
+            "en": "Product category1"
+          },
+          "PersistentObject": {
+            "$ref": "PersistentObject:bf6e64ed-c0e6-323b-a9df-721740dff509"
+          },
+          "Columns": []
+        },
+        "bd0033cc-8d1d-4ac5-ba16-3579c75fe653": {
+          "$id": "Query:bd0033cc-8d1d-4ac5-ba16-3579c75fe653",
+          "Source": "Database.ProductCategories",
+          "AutoQuery": true,
+          "Name": "ProductCategories",
+          "Label": {
+            "en": "Product categories"
+          },
+          "PersistentObject": {
+            "$ref": "PersistentObject:bf6e64ed-c0e6-323b-a9df-721740dff509"
+          },
+          "Columns": []
+        },
+        "bfc393d2-b99f-4d16-830c-5eda83051e91": {
+          "$id": "Query:bfc393d2-b99f-4d16-830c-5eda83051e91",
+          "Offset": 10,
+          "Source": "SalesOrderDetails",
+          "AutoQuery": true,
+          "Name": "SalesOrderHeader_SalesOrderDetails",
+          "Label": {
+            "en": "Sales order details"
+          },
+          "PersistentObject": {
+            "$ref": "PersistentObject:f41dcdb1-7f89-3cf2-a043-380d8a1dcdca"
+          },
+          "Columns": []
+        },
+        "c81776d5-8e10-4e05-b5f8-aff5b2eccd3e": {
+          "$id": "Query:c81776d5-8e10-4e05-b5f8-aff5b2eccd3e",
+          "Source": "Database.Products",
+          "AutoQuery": true,
+          "Name": "Products",
+          "Label": {
+            "en": "Products"
+          },
+          "PersistentObject": {
+            "$ref": "PersistentObject:6c7361aa-03fa-37ba-aeab-5ec3517cec94"
+          },
+          "Columns": []
+        },
+        "cd29f020-7eb3-4a6d-be8f-2aaf24dfe371": {
+          "$id": "Query:cd29f020-7eb3-4a6d-be8f-2aaf24dfe371",
+          "Source": "Database.SalesOrderHeaders",
+          "AutoQuery": true,
+          "Name": "SalesOrderHeaders",
+          "Label": {
+            "en": "Sales order headers"
+          },
+          "PersistentObject": {
+            "$ref": "PersistentObject:725797b3-53b1-3512-848c-132d3b11a304"
+          },
+          "Columns": []
+        },
+        "ce885b00-86f5-4cd0-998d-15373012e6a0": {
+          "$id": "Query:ce885b00-86f5-4cd0-998d-15373012e6a0",
+          "Offset": 10,
+          "Source": "Products",
+          "AutoQuery": true,
+          "Name": "ProductCategory_Products",
+          "Label": {
+            "en": "Products"
+          },
+          "PersistentObject": {
+            "$ref": "PersistentObject:6c7361aa-03fa-37ba-aeab-5ec3517cec94"
+          },
+          "Columns": []
+        }
+      }
+    }
+  },
+  "ProgramUnits": [
+    {
+      "Name": "Home",
+      "Title": {
+        "en": "Home"
+      },
+      "Groups": [],
+      "Items": [
+        {
+          "Offset": 10,
+          "Title": {
+            "en": "Addresses"
+          },
+          "Name": "Addresses",
+          "Query": {
+            "$ref": "Query:56b56d40-b06b-44b4-9048-55a3e709f61a"
+          }
+        },
+        {
+          "Offset": 20,
+          "Title": {
+            "en": "Products"
+          },
+          "Name": "Products",
+          "Query": {
+            "$ref": "Query:c81776d5-8e10-4e05-b5f8-aff5b2eccd3e"
+          }
+        }
+      ]
+    }
+  ],
+  "Reports": [],
+  "ServiceVersion": "5.1.60401.4035",
+  "ModelHash": "nMep/0zqCCfzz1pchWgLjY0E7DS/CFTpPQT8YFt5N2A=",
+  "SeederHash": "eFgY0RAU2wVtbC9OmlWgyUNn/nrCPuWRyodoA5Q48QU="
+}

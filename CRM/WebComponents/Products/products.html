@@ -1,0 +1,38 @@
+﻿<!--The products component has the prefix crm and id crm-products-->
+<dom-module id="crm-products">
+    <template>
+        <link rel="stylesheet" href="products.css" />
+        <!--vi scroller is a scroller--> 
+        <vi-scroller class="flex">
+            <!--A dom repeat template uses the items to iterate troughtdata . items is a keyword , so is as -->
+            <template is="dom-repeat" items="[[products.items]]" as="productItem">
+                <div class="product-item" on-tap="_productTap" is-selected$="[[_isSelectedProduct(product, productItem)]]">[[productItem.values.Name]]</div>
+            </template>
+        </vi-scroller>
+        <!--Another type of template related to polymer the dom if is similar to ng-if of angular . Will show the product detail if the product bind is true.-->
+        <template is="dom-if" if="[[product]]">
+            <!--Another scroller in flex , each scroller will occupy half of the page-->
+            <vi-scroller class="flex">
+                <div class="selected-product">
+                    <!--On track is similar to on drag , we will execute the function track when we drag the header-->
+                    <h1 on-track="_track">[[product.breadcrumb]]</h1>
+                    <!--In this case we use dom repeat as well but go trought the attributes of the product we have bound in typescript--> 
+                    <template is="dom-repeat" items="[[product.attributes]]" as="attribute">
+                        <!--Attribute presenter is a custom vidyano web component for the purpose of, well displaying attributes.-->
+                        <vi-persistent-object-attribute-presenter attribute="[[attribute]]"></vi-persistent-object-attribute-presenter>
+                    </template>
+                </div>
+            </vi-scroller>
+            <!--Footer on the bottom with the buttons--> 
+            <footer class="layout horizontal">
+                <!--If the product hasnt been changed we should not be able to save, only works with foward observers. isDirty is not enough by itself-->
+                <button is="vi-button" label="Save" icon="Action_Save" on-tap="_saveProduct" disabled="[[!product.isDirty]]"></button>
+                <button is="vi-button" label="Orders" on-tap="_showOrdersCount"></button>
+                <!--Altering sass variables dynamicly , neat.-->
+                <button is="vi-button" label="Increase margin" on-tap="_increaseMargin"></button>
+            </footer>
+        </template>
+    </template>
+</dom-module>
+
+<script src="products.js"></script>

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": false,
+    "sourceMap": false
+  },
+  "compileOnSave": true,
+  "files": [
+    "Scripts/typings/vidyano/vidyano.d.ts",
+    "WebComponents/Products/products.ts",
+    "WebComponents/Addresses/addresses.ts"
+  ]
+}
