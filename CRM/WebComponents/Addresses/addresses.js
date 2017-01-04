@@ -151,8 +151,9 @@ var MyCRM;
                     return __generator(this, function (_a) {
                         currentAddress = this.address;
                         this.app.service.executeAction("Address.ShowMap", currentAddress, null, [], []).then(function (res) {
-                            debugger;
-                            console.log("In");
+                            return res;
+                            //debugger;
+                            //console.log("In");
                         });
                         return [2 /*return*/];
                     });

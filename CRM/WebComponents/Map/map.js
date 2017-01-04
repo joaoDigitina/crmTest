@@ -58,13 +58,14 @@ var CRM;
                 return __awaiter(this, void 0, void 0, function () {
                     var currentAttribute, nLatitude, nLongitude;
                     return __generator(this, function (_a) {
+                        debugger;
                         this.app.showAlert("Ola");
                         currentAttribute = this.attribute.parent;
                         console.log(currentAttribute);
                         nLatitude = currentAttribute.getAttributeValue("Latitude");
                         nLongitude = currentAttribute.getAttributeValue("Longitude");
-                        this.latitude = nLatitude.toNumber();
-                        this.longitude = nLongitude.toNumber();
+                        this.latitude = nLatitude;
+                        this.longitude = nLongitude;
                         return [2 /*return*/];
                     });
                 });

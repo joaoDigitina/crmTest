@@ -102,8 +102,9 @@ namespace MyCRM.WebComponents {
 
             this.app.service.executeAction("Address.ShowMap", currentAddress, null , [], []).then((res) =>
             {
-                debugger;
-                console.log("In");
+                return res;
+                //debugger;
+                //console.log("In");
             });
         }
     }

@@ -3037,7 +3037,8 @@
           "Tabs": [
             {
               "$id": "PersistentObjectAttributeTab:172ec731-8679-4620-8969-54b0932c1b8f",
-              "Id": "172ec731-8679-4620-8969-54b0932c1b8f"
+              "Id": "172ec731-8679-4620-8969-54b0932c1b8f",
+              "ColumnCount": 4
             }
           ],
           "Attributes": [
@@ -3090,6 +3091,7 @@
                 "en": "Map"
               },
               "Visibility": 7,
+              "Column": 0,
               "ColumnSpan": 1,
               "DataType": {
                 "$ref": "DataType:String"

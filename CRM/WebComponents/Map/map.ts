@@ -5,15 +5,15 @@ namespace CRM.WebComponents {
         properties: {
             attribute: {
                 type: Object,
-                value : null
+                value: null
             },
-            message:{
+            message: {
                 type: Number,
-                value : null
+                value: null
             },
             latitude: {
                 type: Number,
-                value : null
+                value: null
             },
             longitude: {
                 type: Number,
@@ -28,13 +28,14 @@ namespace CRM.WebComponents {
         longitude: Number;
         message: Number;
         private async _addressLoad(e: TapEvent) {
+            debugger;
             this.app.showAlert("Ola");
             let currentAttribute = this.attribute.parent;
             console.log(currentAttribute);
             let nLatitude = currentAttribute.getAttributeValue("Latitude");
             let nLongitude = currentAttribute.getAttributeValue("Longitude");
-            this.latitude =  nLatitude.toNumber();
-            this.longitude = nLongitude.toNumber();
+            this.latitude = nLatitude;
+            this.longitude = nLongitude;
             //this.app.service.executeAction("ShowMap", this.attribute.parent).then((res) => {
 
             //});
