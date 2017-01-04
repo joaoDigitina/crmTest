@@ -1,0 +1,6 @@
+{
+  "name": "myproject",
+  "dependencies": {
+    "google-map": "GoogleWebComponents/google-map#~1.1.14"
+  }
+}

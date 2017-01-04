@@ -33,17 +33,8 @@ namespace CRM.WebComponents {
             console.log(currentAttribute);
             let nLatitude = currentAttribute.getAttributeValue("Latitude");
             let nLongitude = currentAttribute.getAttributeValue("Longitude");
-            this.latitude = <string>nLatitude;
-            this.longitude = <string>nLongitude;
-
-            this.app.showAlert(nLatitude);
-            this.app.showAlert(nLongitude);
-            let nMessage = `The city has latitude : (${nLatitude} and longitude : (${nLongitude})`;
-            let nMessage2 = `<google-map latitude="${nLatitude}" longitude="${nLongitude}" api-key="AIzaSyAlbM-fbccC_USmfkZ0QDQoY1PjvTjXsfo"></google-map>`;
-
-            this.message = nMessage2;
-            this.app.showAlert(nLatitude);
-            this.app.showAlert(nLongitude);
+            this.latitude = nLatitude;
+            this.longitude = nLongitude;
         }
     }
 }

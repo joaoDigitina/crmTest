@@ -172,6 +172,7 @@
       <LastGenOutput>CRMEntityModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
     <Content Include="tsconfig.json" />
+    <Content Include="bower.json" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>

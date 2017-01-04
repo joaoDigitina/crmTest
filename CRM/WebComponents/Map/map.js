@@ -56,7 +56,7 @@ var CRM;
             }
             Map.prototype._addressLoad = function (e) {
                 return __awaiter(this, void 0, void 0, function () {
-                    var currentAttribute, nLatitude, nLongitude, nMessage, nMessage2;
+                    var currentAttribute, nLatitude, nLongitude;
                     return __generator(this, function (_a) {
                         this.app.showAlert("Ola");
                         currentAttribute = this.attribute.parent;
@@ -65,13 +65,6 @@ var CRM;
                         nLongitude = currentAttribute.getAttributeValue("Longitude");
                         this.latitude = nLatitude;
                         this.longitude = nLongitude;
-                        this.app.showAlert(nLatitude);
-                        this.app.showAlert(nLongitude);
-                        nMessage = "The city has latitude : (" + nLatitude + " and longitude : (" + nLongitude + ")";
-                        nMessage2 = "<google-map latitude=\"" + nLatitude + "\" longitude=\"" + nLongitude + "\" api-key=\"AIzaSyAlbM-fbccC_USmfkZ0QDQoY1PjvTjXsfo\"></google-map>";
-                        this.message = nMessage2;
-                        this.app.showAlert(nLatitude);
-                        this.app.showAlert(nLongitude);
                         return [2 /*return*/];
                     });
                 });
