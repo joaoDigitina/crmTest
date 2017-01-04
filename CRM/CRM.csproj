@@ -160,6 +160,9 @@
     <Content Include="WebComponents\Map\map.js">
       <DependentUpon>map.ts</DependentUpon>
     </Content>
+    <Content Include="WebComponents\Map\map.min.css">
+      <DependentUpon>map.css</DependentUpon>
+    </Content>
     <Content Include="WebComponents\Products\products.css">
       <DependentUpon>products.scss</DependentUpon>
     </Content>

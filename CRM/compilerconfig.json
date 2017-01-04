@@ -2,5 +2,9 @@
   {
     "outputFile": "WebComponents/Products/products.css",
     "inputFile": "WebComponents/Products/products.scss"
+  },
+  {
+    "outputFile": "WebComponents/Map/map.css",
+    "inputFile": "WebComponents/Map/map.scss"
   }
 ]

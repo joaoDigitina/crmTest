@@ -8,7 +8,7 @@ namespace CRM.WebComponents {
                 value : null
             },
             message:{
-                type: String,
+                type: Number,
                 value : null
             },
             latitude: {
@@ -26,15 +26,15 @@ namespace CRM.WebComponents {
         attribute: Vidyano.PersistentObjectAttribute;
         latitude: Number;
         longitude: Number;
-        message: String;
+        message: Number;
         private async _addressLoad(e: TapEvent) {
             this.app.showAlert("Ola");
             let currentAttribute = this.attribute.parent;
             console.log(currentAttribute);
             let nLatitude = currentAttribute.getAttributeValue("Latitude");
             let nLongitude = currentAttribute.getAttributeValue("Longitude");
-            this.latitude = nLatitude;
-            this.longitude = nLongitude;
+            this.latitude =  nLatitude.toNumber();
+            this.longitude =  nLongitude.toNumber();
         }
     }
 }

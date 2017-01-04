@@ -1,2 +1,6 @@
-:host {
-}
+﻿:host google-map {
+  height: 600px;
+  display: block;
+  background-color: red;
+  color: red; }
+

@@ -63,8 +63,8 @@ var CRM;
                         console.log(currentAttribute);
                         nLatitude = currentAttribute.getAttributeValue("Latitude");
                         nLongitude = currentAttribute.getAttributeValue("Longitude");
-                        this.latitude = nLatitude;
-                        this.longitude = nLongitude;
+                        this.latitude = nLatitude.toNumber();
+                        this.longitude = nLongitude.toNumber();
                         return [2 /*return*/];
                     });
                 });
@@ -79,7 +79,7 @@ var CRM;
                         value: null
                     },
                     message: {
-                        type: String,
+                        type: Number,
                         value: null
                     },
                     latitude: {
