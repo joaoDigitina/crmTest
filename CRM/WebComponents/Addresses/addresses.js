@@ -145,6 +145,19 @@ var MyCRM;
                 // VERY CAREFUL . because the default value for our mixins is UNDEFINED . We need to define it as null on the register.
                 return address != null && address.objectId === addressItem.id;
             };
+            Addresses.prototype._showMapAction = function () {
+                return __awaiter(this, void 0, void 0, function () {
+                    var currentAddress;
+                    return __generator(this, function (_a) {
+                        currentAddress = this.address;
+                        this.app.service.executeAction("Address.ShowMap", currentAddress, null, [], []).then(function (res) {
+                            debugger;
+                            console.log("In");
+                        });
+                        return [2 /*return*/];
+                    });
+                });
+            };
             return Addresses;
         }(Vidyano.WebComponents.WebComponent));
         Addresses = __decorate([

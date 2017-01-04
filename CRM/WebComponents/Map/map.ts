@@ -34,7 +34,10 @@ namespace CRM.WebComponents {
             let nLatitude = currentAttribute.getAttributeValue("Latitude");
             let nLongitude = currentAttribute.getAttributeValue("Longitude");
             this.latitude =  nLatitude.toNumber();
-            this.longitude =  nLongitude.toNumber();
+            this.longitude = nLongitude.toNumber();
+            //this.app.service.executeAction("ShowMap", this.attribute.parent).then((res) => {
+
+            //});
         }
     }
 }

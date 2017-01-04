@@ -30,6 +30,11 @@ namespace MyCRM.WebComponents {
             this.address = await addressItem.getPersistentObject();
             // After displaying our address we being the edit right away,
             this.address.beginEdit();
+
+
+
+            //this.app.service.executeAction()
+            //{ MenuOption: -1 }
         }
         // Method to save address on the button
         private async _saveaddress() {
@@ -90,6 +95,16 @@ namespace MyCRM.WebComponents {
             //So we send the address we have binded here on typescrit and EACH address item so we can figure out which one the user selected.
             // VERY CAREFUL . because the default value for our mixins is UNDEFINED . We need to define it as null on the register.
             return address != null && address.objectId === addressItem.id;
+        }
+
+        private async _showMapAction() {
+            let currentAddress = <Vidyano.PersistentObject>this.address;
+
+            this.app.service.executeAction("Address.ShowMap", currentAddress, null , [], []).then((res) =>
+            {
+                debugger;
+                console.log("In");
+            });
         }
     }
 }

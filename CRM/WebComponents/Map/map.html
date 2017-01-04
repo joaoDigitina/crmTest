@@ -1,10 +1,10 @@
 ﻿<link rel="import" href="../../bower_components/google-map/google-map.html" />
-
+<link rel="import" href="../../bower_components/google-map/google-map.html" />
 
 <dom-module id="crm-map">
     <template>
         <link rel="stylesheet" href="map.css" />
-		    <div on-tap="_addressLoad">
+		    <div on-tap="_addressLoad" onclick="alert(ola)">
                 Show Map [[latitude]] [[longitude]]
             </div>
         <template is="dom-if" if="[[latitude]]">

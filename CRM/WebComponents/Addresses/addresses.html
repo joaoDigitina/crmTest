@@ -28,6 +28,7 @@
                 <!--If the addresses hasnt been changed we should not be able to save, only works with foward observers. isDirty is not enough by itself-->
                 <button is="vi-button" label="Save" icon="Action_Save" on-tap="_saveaddress" disabled="[[!address.isDirty]]"></button>
                 <button is="vi-button" label="Increase margin" on-tap="_increaseMargin"></button>
+                <button is="vi-button" label="Show Map" on-tap="_showMapAction"></button>
             </footer>
         </template>
     </template>

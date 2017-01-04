@@ -1,0 +1,4 @@
+  <google-map latitude$=[[latitude]] longitude$=[[longitude]] api-key="AIzaSyAlbM-fbccC_USmfkZ0QDQoY1PjvTjXsfo" min-zoom="9" max-zoom="11" language="en">
+                <google-map-marker latitude$=[[latitude]] longitude$=[[longitude]]
+                                   draggable="true" title="Go Giants!"></google-map-marker>
+            </google-map>

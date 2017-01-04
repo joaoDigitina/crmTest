@@ -1,8 +1,14 @@
 {
+  "Groups": {},
   "Rights": [
     {
       "Id": "4836c43d-858e-40c6-aae4-9ed87dbdbb15",
       "Resource": "Query/CRM",
+      "UserId": "d3bd3312-0730-43d9-9bf4-9e14c75b00f7"
+    },
+    {
+      "Id": "29e2888b-4ebf-48a7-b697-bbeb4b4cb31a",
+      "Resource": "ShowMap/CRM.Address",
       "UserId": "d3bd3312-0730-43d9-9bf4-9e14c75b00f7"
     }
   ]

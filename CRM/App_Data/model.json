@@ -161,6 +161,12 @@
       "IsPinned": true,
       "IconName": "Help"
     },
+    "ShowMap": {
+      "ShowedOn": 1,
+      "DisplayName": {
+        "en": "Show map"
+      }
+    },
     "SynchronizeSchema": {
       "RefreshQueryOnCompleted": true,
       "Offset": 700,
@@ -171,16 +177,6 @@
       },
       "IconName": "Edmx"
     },
-    "viConfigurePO": {
-      "Offset": 1000000,
-      "ShowedOn": 1,
-      "IsSystem": true,
-      "DisplayName": {
-        "en": "Configure"
-      },
-      "IsPinned": true,
-      "IconName": "Action"
-    },
     "viAddToProgramUnit": {
       "Offset": 1000,
       "ShowedOn": 3,
@@ -190,6 +186,16 @@
         "en": "Add to Program Unit"
       },
       "IconName": "Add"
+    },
+    "viConfigurePO": {
+      "Offset": 1000000,
+      "ShowedOn": 1,
+      "IsSystem": true,
+      "DisplayName": {
+        "en": "Configure"
+      },
+      "IsPinned": true,
+      "IconName": "Action"
     },
     "viConfigureQuery": {
       "Offset": 1000000,
@@ -3011,6 +3017,92 @@
           "Queries": [
             "bfc393d2-b99f-4d16-830c-5eda83051e91"
           ]
+        },
+        "0382f4c3-ab93-3087-a41b-5a1b6e695564": {
+          "$id": "PersistentObject:0382f4c3-ab93-3087-a41b-5a1b6e695564",
+          "SchemaName": "CRM",
+          "Type": "ShowMap",
+          "Label": {
+            "en": "Show Map"
+          },
+          "StateBehavior": 8,
+          "Help": [],
+          "ActionCodes": [],
+          "Groups": [
+            {
+              "$id": "PersistentObjectAttributeGroup:5541fa21-cc68-4929-8112-a9cb4616b792",
+              "Id": "5541fa21-cc68-4929-8112-a9cb4616b792"
+            }
+          ],
+          "Tabs": [
+            {
+              "$id": "PersistentObjectAttributeTab:172ec731-8679-4620-8969-54b0932c1b8f",
+              "Id": "172ec731-8679-4620-8969-54b0932c1b8f"
+            }
+          ],
+          "Attributes": [
+            {
+              "$id": "PersistentObjectAttribute:516f5f3c-8794-3a55-9236-e7626cab1ba8",
+              "Id": "516f5f3c-8794-3a55-9236-e7626cab1ba8",
+              "Offset": 5,
+              "Name": "Latitude",
+              "Label": {
+                "en": "Latitude"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:5541fa21-cc68-4929-8112-a9cb4616b792"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:172ec731-8679-4620-8969-54b0932c1b8f"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:bea27aa9-7397-334d-8d91-20ef23a71f9f",
+              "Id": "bea27aa9-7397-334d-8d91-20ef23a71f9f",
+              "Offset": 20,
+              "Name": "Longitude",
+              "Label": {
+                "en": "Longitude"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:5541fa21-cc68-4929-8112-a9cb4616b792"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:172ec731-8679-4620-8969-54b0932c1b8f"
+              }
+            },
+            {
+              "$id": "PersistentObjectAttribute:2b5f0b7b-0111-3dbb-9b31-64e5b3a03f89",
+              "Id": "2b5f0b7b-0111-3dbb-9b31-64e5b3a03f89",
+              "Offset": 30,
+              "Name": "Map",
+              "Label": {
+                "en": "Map"
+              },
+              "Visibility": 7,
+              "ColumnSpan": 1,
+              "DataType": {
+                "$ref": "DataType:String"
+              },
+              "Group": {
+                "$ref": "PersistentObjectAttributeGroup:5541fa21-cc68-4929-8112-a9cb4616b792"
+              },
+              "Tab": {
+                "$ref": "PersistentObjectAttributeTab:172ec731-8679-4620-8969-54b0932c1b8f"
+              }
+            }
+          ],
+          "Queries": []
         }
       },
       "Queries": {
