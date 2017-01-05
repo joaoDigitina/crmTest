@@ -3092,7 +3092,7 @@
               },
               "Visibility": 7,
               "Column": 0,
-              "ColumnSpan": 1,
+              "ColumnSpan": 4,
               "DataType": {
                 "$ref": "DataType:String"
               },

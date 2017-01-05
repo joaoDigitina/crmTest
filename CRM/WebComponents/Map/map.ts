@@ -20,6 +20,9 @@ namespace CRM.WebComponents {
                 value: null
             }
         },
+        observers: [
+            "_addressLoad(attribute,isAttached)"
+        ]
     }, "crm")//crm prefix.
 
     export class Map extends Vidyano.WebComponents.WebComponent {
@@ -27,11 +30,14 @@ namespace CRM.WebComponents {
         latitude: Number;
         longitude: Number;
         message: Number;
-        private async _addressLoad(e: TapEvent) {
-            let currentAttribute = this.attribute.parent;
-            console.log(currentAttribute);
-            let nLatitude = currentAttribute.getAttributeValue("Latitude");
-            let nLongitude = currentAttribute.getAttributeValue("Longitude");
+        private async _addressLoad(attribute: Vidyano.PersistentObjectAttribute, isAttached: boolean) {
+            if (!attribute || !isAttached)
+            {
+                return;
+            }
+   
+            let nLatitude = attribute.parent.getAttributeValue("Latitude");
+            let nLongitude = attribute.parent.getAttributeValue("Longitude");
             this.latitude = nLatitude;
             this.longitude = nLongitude;
            

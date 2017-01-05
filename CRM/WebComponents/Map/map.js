@@ -54,14 +54,15 @@ var CRM;
             function Map() {
                 return _super.apply(this, arguments) || this;
             }
-            Map.prototype._addressLoad = function (e) {
+            Map.prototype._addressLoad = function (attribute, isAttached) {
                 return __awaiter(this, void 0, void 0, function () {
-                    var currentAttribute, nLatitude, nLongitude;
+                    var nLatitude, nLongitude;
                     return __generator(this, function (_a) {
-                        currentAttribute = this.attribute.parent;
-                        console.log(currentAttribute);
-                        nLatitude = currentAttribute.getAttributeValue("Latitude");
-                        nLongitude = currentAttribute.getAttributeValue("Longitude");
+                        if (!attribute || !isAttached) {
+                            return [2 /*return*/];
+                        }
+                        nLatitude = attribute.parent.getAttributeValue("Latitude");
+                        nLongitude = attribute.parent.getAttributeValue("Longitude");
                         this.latitude = nLatitude;
                         this.longitude = nLongitude;
                         return [2 /*return*/];
@@ -90,6 +91,9 @@ var CRM;
                         value: null
                     }
                 },
+                observers: [
+                    "_addressLoad(attribute,isAttached)"
+                ]
             }, "crm") //crm prefix.
         ], Map);
         WebComponents.Map = Map;

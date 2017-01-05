@@ -4,10 +4,7 @@
 <dom-module id="crm-map">
     <template>
         <link rel="stylesheet" href="map.css" />
-        <div class="mapDiv">
-            <div on-tap="_addressLoad" onclick="alert(ola)">
-                Show Map [[latitude]] [[longitude]]
-            </div>
+        <div class="mapDiv relative">
             <template is="dom-if" if="[[latitude]]">
                 <!--<div class="google-map">
             <google-map latitude$=[[latitude]] longitude$=[[longitude]] min-zoom="9" max-zoom="11" language="en" api-key="AIzaSyAlbM-fbccC_USmfkZ0QDQoY1PjvTjXsfo">
