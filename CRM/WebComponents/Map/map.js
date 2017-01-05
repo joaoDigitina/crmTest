@@ -58,8 +58,6 @@ var CRM;
                 return __awaiter(this, void 0, void 0, function () {
                     var currentAttribute, nLatitude, nLongitude;
                     return __generator(this, function (_a) {
-                        debugger;
-                        this.app.showAlert("Ola");
                         currentAttribute = this.attribute.parent;
                         console.log(currentAttribute);
                         nLatitude = currentAttribute.getAttributeValue("Latitude");

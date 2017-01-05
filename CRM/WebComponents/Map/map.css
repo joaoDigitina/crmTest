@@ -4,3 +4,14 @@
   background-color: red;
   color: red; }
 
+:host .mapDiv {
+  display: flex;
+  flex-direction: column;
+  height: 600px; }
+
+:host #main {
+  height: 600px; }
+
+:host .vi-persistent-object-dialog {
+  height: 600px; }
+

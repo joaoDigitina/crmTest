@@ -1,1 +1,1 @@
-﻿:host google-map{height:600px;display:block;background-color:#f00;color:#f00;}
+﻿:host google-map{height:600px;display:block;background-color:#f00;color:#f00;}:host .mapDiv{display:flex;flex-direction:column;height:600px;}:host #main{height:600px;}:host .vi-persistent-object-dialog{height:600px;}
