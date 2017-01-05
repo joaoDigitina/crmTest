@@ -15,11 +15,11 @@
                     </google-map-marker>
             </google-map>
             </div>-->
-            <google-map id="googleMap" class=fit latitude$="{{latitude}}" longitude$="{{longitude}}" api-key="AIzaSyA1jekTz8Z8yhGvjMimdw-KxwRB57pDx1I" min-zoom="9" max-zoom="11" language="en">
-                <google-map-marker latitude$={{latitude}} longitude$={{longitude}}
-                                   draggable="true" title="Go Giants!"></google-map-marker>
-            </google-map>
-
+        
+                <google-map map="{{map}}" tyle="display:flex;flex-direction:column" id="googleMap" class=fit latitude$="{{latitude}}" longitude$="{{longitude}}" api-key="AIzaSyA1jekTz8Z8yhGvjMimdw-KxwRB57pDx1I" min-zoom="9" max-zoom="11" language="en">
+                    <google-map-marker latitude$={{latitude}} longitude$={{longitude}}
+                                       draggable="true" title="Go Giants!"></google-map-marker>
+                </google-map>
        
         </template>
      </template>

@@ -74,6 +74,7 @@ var CRM;
         Map = __decorate([
             Vidyano.WebComponents.WebComponent.register({
                 properties: {
+                    map: Object,
                     attribute: {
                         type: Object,
                         value: null

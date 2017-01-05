@@ -19,7 +19,9 @@
                     <!--In this case we use dom repeat as well but go trought the attributes of the addresses we have bound in typescript-->
                     <template is="dom-repeat" items="[[address.attributes]]" as="attribute">
                         <!--Attribute presenter is a custom vidyano web component for the purpose of, well displaying attributes.-->
-                        <vi-persistent-object-attribute-presenter attribute="[[attribute]]"></vi-persistent-object-attribute-presenter>
+                        <!--<div style="display:flex;flex-grow:3">-->
+                            <vi-persistent-object-attribute-presenter attribute="[[attribute]]"></vi-persistent-object-attribute-presenter>
+                        <!--</div>-->
                     </template>
                 </div>
             </vi-scroller>
@@ -31,6 +33,7 @@
             </footer>
         </template>
     </template>
+    
 </dom-module>
 
 <script src="addresses.js"></script>

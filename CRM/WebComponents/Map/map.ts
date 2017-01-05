@@ -3,6 +3,7 @@ namespace CRM.WebComponents {
 
     @Vidyano.WebComponents.WebComponent.register({
         properties: {
+            map:Object,
             attribute: {
                 type: Object,
                 value : null
@@ -27,6 +28,8 @@ namespace CRM.WebComponents {
         latitude: Number;
         longitude: Number;
         message: Number;
+        map: Object;
+ 
         private async _addressLoad(e: TapEvent) {
             this.app.showAlert("Ola");
             let currentAttribute = this.attribute.parent;
@@ -34,7 +37,10 @@ namespace CRM.WebComponents {
             let nLatitude = currentAttribute.getAttributeValue("Latitude");
             let nLongitude = currentAttribute.getAttributeValue("Longitude");
             this.latitude =  nLatitude.toNumber();
-            this.longitude =  nLongitude.toNumber();
+            this.longitude = nLongitude.toNumber();
+            //example of getting content from DOM
+            // Map is not avaible when we tap
+            //var map = document.querySelector('#content');
         }
     }
 }
