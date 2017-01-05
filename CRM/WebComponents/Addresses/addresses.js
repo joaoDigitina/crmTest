@@ -147,15 +147,24 @@ var MyCRM;
             };
             Addresses.prototype._showMapAction = function () {
                 return __awaiter(this, void 0, void 0, function () {
-                    var currentAddress;
+                    var currentAddress, res, newDialog, feedback;
                     return __generator(this, function (_a) {
-                        currentAddress = this.address;
-                        this.app.service.executeAction("Address.ShowMap", currentAddress, null, [], []).then(function (res) {
-                            return res;
-                            //debugger;
-                            //console.log("In");
-                        });
-                        return [2 /*return*/];
+                        switch (_a.label) {
+                            case 0:
+                                currentAddress = this.address;
+                                debugger;
+                                return [4 /*yield*/, this.app.importComponent("PersistentObjectDialog")];
+                            case 1:
+                                _a.sent();
+                                return [4 /*yield*/, this.app.service.executeAction("ShowMap", currentAddress, null, [], [])];
+                            case 2:
+                                res = _a.sent();
+                                newDialog = new Vidyano.WebComponents.PersistentObjectDialog(res);
+                                return [4 /*yield*/, this.app.showDialog(newDialog)];
+                            case 3:
+                                feedback = _a.sent();
+                                return [2 /*return*/];
+                        }
                     });
                 });
             };

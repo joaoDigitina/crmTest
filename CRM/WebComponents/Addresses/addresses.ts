@@ -99,13 +99,14 @@ namespace MyCRM.WebComponents {
 
         private async _showMapAction() {
             let currentAddress = <Vidyano.PersistentObject>this.address;
-
-            this.app.service.executeAction("Address.ShowMap", currentAddress, null , [], []).then((res) =>
-            {
-                return res;
-                //debugger;
-                //console.log("In");
-            });
+            debugger;
+            await this.app.importComponent("PersistentObjectDialog");
+            const res = await this.app.service.executeAction("ShowMap", currentAddress, null, [], []);
+            const newDialog = new Vidyano.WebComponents.PersistentObjectDialog(res);
+            const feedback = await this.app.showDialog(newDialog);
+            //debugger;
+            //console.log("In");
+           
         }
     }
 }
